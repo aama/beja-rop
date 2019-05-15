@@ -7,49 +7,50 @@
  :geodemoURL "http://www.ethnologue.com/language/bej"
  :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
  :schemata {:clauseType [:Subordinate ],
- :case [:Object :Possessive :Subject],
- :conjClass [:Prefix :Suffix],
- :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
- :genHead [:H_Fem :H_Masc],
- :genN1 [:Fem :Masc],
- :genN2 [:Fem :Masc],
- :gender [:Common :Fem :Masc :_NA],
- :nmorphClass [:GenAdjPart :GenBeforePossSuff :NumOrd :Numeral],
- :nonFiniteForm [:Gerund :NominalAction :NominalAgent :Participle :PerfectParticiple :PresentParticiple :_NA],
- :numHead [:H_Common :H_Plural :H_Singular],
- :numN1 [:Plural :Singular :_NA],
- :number [:Plural :Singular :_NA],
- :person [:Person1 :Person2 :Person3 :Plural :Singular],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative :_NA],
- :pos [:Noun :Pronoun :Verb],
- :proClass [:ArtDef :Gen_PossPred :Independent :Interrogative :PossInd :PossSuff],
- :rootClass [:CC :CCC],
- :tam [:Conditional :ConditionalPerfect :ConditionalPredicative :Future :FutureSubjunctive :Gerund :Imperative :Optative :Past :PastContinuous :PastPerfect :PastPerfectSubjunctive :PastSubjunctive :Predicative :Present :PresentContinuous :PresentPerfect :PresentPredicative :PresentSubjunctive :_NA],
- :vmorphClass [:AffixNegImprtv :DervStemForm :Finite :GerundForm :ImptvAffix :NomForm-ktm :NomFormPref :NomFormSuff :NominalAgent :Participle :SubjMarker :SubjMarkerIntens]
- }
+            :case [:Object :Possessive :Subject],
+            :conjClass [:Prefix :Suffix],
+            :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
+            :genHead [:H_Fem :H_Masc],
+            :genN1 [:Fem :Masc],
+            :genN2 [:Fem :Masc],
+            :gender [:Common :Fem :Masc :_NA],
+            :nmorphClass [:GenAdjPart :GenBeforePossSuff :NumOrd :Numeral],
+            :nonFiniteForm [:Gerund :NominalAction :NominalAgent :Participle :PerfectParticiple :PresentParticiple :_NA],
+            :numHead [:H_Common :H_Plural :H_Singular],
+            :numN1 [:Plural :Singular :_NA],
+            :number [:Plural :Singular :_NA],
+            :person [:Person1 :Person2 :Person3 :Plural :Singular],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative :_NA],
+            :pos [:Noun :Pronoun :Verb],
+            :proClass [:ArtDef :Gen_PossPred :Independent :Interrogative :PossInd :PossSuff],
+            :rootClass [:CC :CCC],
+            :stemClass [:Irreg]           
+            :tam [:Conditional :ConditionalPerfect :ConditionalPredicative :Future :FutureSubjunctive :Gerund :Imperative :Optative :Past :PastContinuous :PastPerfect :PastPerfectSubjunctive :PastSubjunctive :Predicative :Present :PresentContinuous :PresentPerfect :PresentPredicative :PresentSubjunctive :_NA],
+            :vmorphClass [:AffixNegImprtv :DervStemForm :Finite :GerundForm :ImptvAffix :NomForm-ktm :NomFormPref :NomFormSuff :NominalAgent :Participle :SubjMarker :SubjMarkerIntens]
+            }
  :pclass {:pngClass [:person :number :gender :genHead :genN1 :genN2 :numHead :numN1],
           :synsemClass [:aspect :clauseType :case :derivedStem :nonFiniteForm :polarity :pos :proClass :tam],
           :inflClass [:conjClass :rootClass],
           :otherClass []}
  :lexemes {
-:bar   {:pos :Verb, :lemma "bar", :gloss "wake", },
-:bir   {:pos :Verb, :lemma "bir", :gloss "snatch", },
-:bis   {:pos :Verb, :lemma "bis", :gloss "bury", },
-:dif   {:pos :Verb, :lemma "dif", :gloss "go", },
-:dir   {:pos :Verb, :lemma "dir", :gloss "kill", },
-:gid   {:pos :Verb, :lemma "gid", :gloss "throw", },
-:i   {:pos :Verb, :lemma "i", :gloss "go", },
-:kitim   {:pos :Verb, :lemma "kitim", :gloss "arrive", },
-:m-   {:pos :Verb, :lemma "m-", :gloss "go [imperative]", },
-:min   {:pos :Verb, :lemma "min", :gloss "shave", },
-:mo   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:nis   {:pos :Verb, :lemma "nis", :gloss "saddle", },
-:sodira   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:t-   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:tam   {:pos :Verb, :lemma "tam", :gloss "eat", },
-:to   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-}
+           :bar   {:pos :Verb, :lemma "bar", :gloss "wake", },
+           :bir   {:pos :Verb, :lemma "bir", :gloss "snatch", },
+           :bis   {:pos :Verb, :lemma "bis", :gloss "bury", },
+           :dif   {:pos :Verb, :lemma "dif", :gloss "go", },
+           :dir   {:pos :Verb, :lemma "dir", :gloss "kill", },
+           :gid   {:pos :Verb, :lemma "gid", :gloss "throw", },
+           :i   {:pos :Verb, :lemma "i", :gloss "go", },
+           :kitim   {:pos :Verb, :lemma "kitim", :gloss "arrive", },
+           :m-   {:pos :Verb, :lemma "m-", :gloss "go [imperative]", },
+           :min   {:pos :Verb, :lemma "min", :gloss "shave", },
+           :mo   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :nis   {:pos :Verb, :lemma "nis", :gloss "saddle", },
+           :sodira   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :t-   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :tam   {:pos :Verb, :lemma "tam", :gloss "eat", },
+           :to   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           }
  :termclusters [
                 {:label "beja_Ro-VPrefAffCCOpt-bis"
                  :note "RPs.190"
@@ -73,7 +74,8 @@
                 {:label "beja_Ro-VPrefAffImprtv-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :Finite
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg
                           :lexeme :i,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -400,7 +402,8 @@
                 {:label "beja_Ro-VPrefGerund-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :GerundForm
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg
                           :lexeme :i,
                           :pos :Verb,
                           :tam :Gerund}
@@ -565,7 +568,8 @@
                 {:label "beja_Ro-VPrefNegImprtv-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :Finite
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg,
                           :lexeme :i,
                           :polarity :Negative,
                           :pos :Verb,
@@ -576,7 +580,8 @@
                 {:label "beja_Ro-VPrefNomAgent-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :NominalAgent,
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg,
                           :lexeme :i,
                           :pos :Verb}
                  :terms [[:gender :token],
@@ -585,7 +590,8 @@
                 {:label "beja_Ro-VPrefParticiple-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :Participle
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg,
                           :lexeme :i,
                           :pos :Verb}
                  :terms [[:gender :token],
@@ -594,7 +600,8 @@
                 {:label "beja_Ro-VPrefPast-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :Finite
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg,
                           :lexeme :i,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -612,7 +619,8 @@
                 {:label "beja_Ro-VPrefPres-i"
                  :note "RPs.256 "
                  :common {:vmorphClass :Finite
-                          :conjClass :Prefix,
+                          :conjClass :Suffix,
+                          :stemClass :Irreg,
                           :lexeme :i,
                           :polarity :Affirmative,
                           :pos :Verb,
