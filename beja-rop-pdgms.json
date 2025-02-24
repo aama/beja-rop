@@ -1,11 +1,21 @@
 {
   "lang": "beja-rop",
-  "subfamily": "Beja",
+  "subfamily": "cushitic beja",
   "lgpref": "bro",
-  "datasource": "Roper1928 [Section ref abbreviated in :note as RPs.",
+  "datasource": "Roper, E. M. 1928. Tu Bed'awie: An elementary handbook for the use of Sudan government officials. Hartford: Stephen Austin and Sons.[ER28]",
   "datasourceNotes": "Roper uses the term :Conditional for what is elsewhere termed :Aorist",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'ḍ' = 'ɗ'",
+        "'ṭ' = 't'' "
+      ]},
+    "Vowels": {
+      "inventory": "i e ε ǝ a o u; ī ē ā  ū",
+      "stress": "'v v̄' unstressed; 'v́ v̄́' stressed"}},
   "geodemoURL": "http://www.ethnologue.com/language/bej",
-  "geodemoTXT": "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator.",
+  "geodemoTXT": "cushitic beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator.",
   "schemata": {
   "case": [
     "Object",
@@ -17,18 +27,26 @@
     "Suffix"
   ],
   "derivedStem": [
-    "B_Freq",
-    "B_Intens",
-    "B_Redup",
-    "Base",
+    "Intensive"
+  ],
+  "dervStem": [
+    "Causative",
+    "Causative-1",
+    "Causative-2",
+    "Frequentative",
     "Intensive",
-    "M",
+    "Intensive-1",
+    "Intensive-2",
+    "Passive",
     "Reciprocal",
-    "S"
+    "Reflexive",
+    "reciprocal"
   ],
   "genHead": [
     "H_Fem",
-    "H_Masc"
+    "H_Masc",
+    "H_Masculine",
+    "H_Plural"
   ],
   "genN1": [
     "Fem",
@@ -46,25 +64,41 @@
     "Singular"
   ],
   "lexeme": [
-    "bar",
+    "bas",
     "bir",
+    "birir",
     "bis",
+    "bāḍin",
+    "dibil",
     "dif",
+    "dilib",
+    "dir",
+    "fif",
     "gid",
+    "gilim",
+    "ginif",
     "i",
+    "ib",
+    "kitib",
     "kitim",
-    "m-",
+    "lig",
     "min",
-    "mo",
     "nis",
-    "sodira",
-    "t-",
+    "nāi",
+    "rikwi",
+    "rimid",
+    "sikit",
     "tam",
-    "to"
+    "šibib",
+    "šuguḍ",
+    "ṭa",
+    "ṭaba",
+    "ṭibik"
   ],
   "morphClass": [
     "AffixNegImprtv",
     "DervStemForm",
+    "DervStemPrincipalParts",
     "GenAdjPart",
     "GenBeforePossSuff",
     "GerundForm",
@@ -88,7 +122,6 @@
     "PresentParticiple"
   ],
   "numHead": [
-    "H_Common",
     "H_Plural",
     "H_Singular"
   ],
@@ -130,6 +163,10 @@
   "stemClass": [
     "Irreg"
   ],
+  "subClass": [
+    "Bisyllabic",
+    "Monosyllabic"
+  ],
   "tam": [
     "Conditional",
     "ConditionalPerfect",
@@ -154,210 +191,177 @@
   ]
 },
   "lexemes": {
-    "bar": {
-      "pos": "Verb",
-      "lemma": "bar",
-      "gloss": "wake"
-    },
-    "bir": {
-      "pos": "Verb",
-      "lemma": "bir",
-      "gloss": "snatch"
-    },
-    "bis": {
-      "pos": "Verb",
-      "lemma": "bis",
-      "gloss": "bury"
-    },
-    "dif": {
-      "pos": "Verb",
-      "lemma": "dif",
-      "gloss": "go"
-    },
-    "dir": {
-      "pos": "Verb",
-      "lemma": "dir",
-      "gloss": "kill"
-    },
-    "gid": {
-      "pos": "Verb",
-      "lemma": "gid",
-      "gloss": "throw"
-    },
-    "i": {
-      "pos": "Verb",
-      "lemma": "i",
-      "gloss": "go"
-    },
-    "kitim": {
-      "pos": "Verb",
-      "lemma": "kitim",
-      "gloss": "arrive"
-    },
-    "m-": {
-      "pos": "Verb",
-      "lemma": "m-",
-      "gloss": "go [imperative]"
-    },
-    "min": {
-      "pos": "Verb",
-      "lemma": "min",
-      "gloss": "shave"
-    },
-    "mo": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "nis": {
-      "pos": "Verb",
-      "lemma": "nis",
-      "gloss": "saddle"
-    },
-    "sodira": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "t-": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "tam": {
-      "pos": "Verb",
-      "lemma": "tam",
-      "gloss": "eat"
-    },
-    "to": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    }
+  "bas": {
+    "pos": "Verb",
+    "lemma": "b'as",
+    "gloss": "turn over"
   },
+  "bar": {
+    "pos": "Verb",
+    "lemma": "bar",
+    "gloss": "wake"
+  },
+  "bir": {
+    "pos": "Verb",
+    "lemma": "bir",
+    "gloss": "snatch"
+  },
+  "birir": {
+    "pos": "Verb",
+    "lemma": "birir",
+    "gloss": "spread"
+  },
+  "bis": {
+    "pos": "Verb",
+    "lemma": "bis",
+    "gloss": "bury"
+  },
+  "bāḍin": {
+    "pos": "Verb",
+    "lemma": "bāḍin",
+    "gloss": "forget"
+  },
+  "dibil": {
+    "pos": "Verb",
+    "lemma": "dibil",
+    "gloss": "collect"
+  },
+  "dif": {
+    "pos": "Verb",
+    "lemma": "dif",
+    "gloss": "go"
+  },
+  "dilib": {
+    "pos": "Verb",
+    "lemma": "dilib",
+    "gloss": "buy"
+  },
+  "dir": {
+    "pos": "Verb",
+    "lemma": "dir",
+    "gloss": "kill"
+  },
+  "fif": {
+    "pos": "Verb",
+    "lemma": "fif",
+    "gloss": "pour"
+  },
+  "gid": {
+    "pos": "Verb",
+    "lemma": "gid",
+    "gloss": "throw"
+  },
+  "gilim": {
+    "pos": "Verb",
+    "lemma": "gilim",
+    "gloss": "muzzle"
+  },
+  "ginif": {
+    "pos": "Verb",
+    "lemma": "ginif",
+    "gloss": "kneel"
+  },
+  "i": {
+    "pos": "Verb",
+    "lemma": "i",
+    "gloss": "go"
+  },
+  "ib": {
+    "pos": "Verb",
+    "lemma": "'ib",
+    "gloss": "gall"
+  },
+  "kitib": {
+    "pos": "Verb",
+    "lemma": "kitib",
+    "gloss": "write"
+  },
+  "kitim": {
+    "pos": "Verb",
+    "lemma": "kitim",
+    "gloss": "arrive"
+  },
+  "lig": {
+    "pos": "Verb",
+    "lemma": "lig",
+    "gloss": "stab"
+  },
+  "m-": {
+    "pos": "Verb",
+    "lemma": "m-",
+    "gloss": "go [imperative]"
+  },
+  "min": {
+    "pos": "Verb",
+    "lemma": "min",
+    "gloss": "shave"
+  },
+  "mo": {
+    "pos": "Verb",
+    "lemma": "mo",
+    "gloss": "[x]"
+  },
+  "nis": {
+    "pos": "Verb",
+    "lemma": "nis",
+    "gloss": "saddle"
+  },
+  "nāi": {
+    "pos": "Verb",
+    "lemma": "nāi",
+    "gloss": "milk"
+  },
+  "rikwi": {
+    "pos": "Verb",
+    "lemma": "rikwi",
+    "gloss": "fear"
+  },
+  "rimid": {
+    "pos": "Verb",
+    "lemma": "rimid",
+    "gloss": "aveng"
+  },
+  "sikit": {
+    "pos": "Verb",
+    "lemma": "sikit",
+    "gloss": "throttle"
+  },
+  "tam": {
+    "pos": "Verb",
+    "lemma": "tam",
+    "gloss": "eat"
+  },
+  "šibib": {
+    "pos": "Verb",
+    "lemma": "šibib",
+    "gloss": "see"
+  },
+  "šuguḍ": {
+    "pos": "Verb",
+    "lemma": "šuguḍ",
+    "gloss": "wash"
+  },
+  "ṭa": {
+    "pos": "Verb",
+    "lemma": "ṭ'(a)",
+    "gloss": "strike"
+  },
+  "ṭaba": {
+    "pos": "Verb",
+    "lemma": "ṭab'a",
+    "gloss": "beat"
+  },
+  "ṭibik": {
+    "pos": "Verb",
+    "lemma": "ṭibik",
+    "gloss": "collect"
+  }
+},
   "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass", "rootClass", "stemClass", "lexeme", "derivedStem", "tam", "polarity"],
   "termclusters": [
   {
-    "label": "bro-Nounmorph-GenAdjPart-",
-    "note": "RPs.062 ::  Possessive construction where N1 is modified by an adjective. Pattern is:[N1 Adj]+genAdjPart N2 the Adj N1s N2",
-    "common": {
-      "morphClass": "GenAdjPart",
-      "pos": "Noun"
-    },
-    "terms": [
-      ["genN1" ,"genN2" ,"numN1" ,"token"],
-      ["Fem" ,"Fem" ,"Plural" ,"-natet"],
-      ["Fem" ,"Fem" ,"Singular" ,"-natit"],
-      ["Fem" ,"Masc" ,"__" ,"-nati"],
-      ["Masc" ,"Fem" ,"__" ,"-nait"],
-      ["Masc" ,"Masc" ,"__" ,"-nai"]
-    ]
-  },
-  {
-    "label": "bro-Nounmorph-GenBeforePossSuff-",
-    "note": "RPs.106 ",
-    "common": {
-      "morphClass": "GenBeforePossSuff",
-      "pos": "Noun"
-    },
-    "terms": [
-      ["genHead" ,"number" ,"gender" ,"token"],
-      ["H_Fem" ,"Singular" ,"Masc" ,"-it-"],
-      ["H_Fem" ,"Singular" ,"Fem" ,"-tit-"],
-      ["H_Fem" ,"Plural" ,"Masc" ,"-et-"],
-      ["H_Fem" ,"Plural" ,"Fem" ,"-tet-"],
-      ["H_Masc" ,"Singular" ,"Masc" ,"-i-"],
-      ["H_Masc" ,"Singular" ,"Fem" ,"-ti-"],
-      ["H_Masc" ,"Plural" ,"Masc" ,"-e-"],
-      ["H_Masc" ,"Plural" ,"Fem" ,"-te-"]
-    ]
-  },
-  {
-    "label": "bro-Nounmorph-NumOrd-",
-    "note": "RPs.077 ",
-    "common": {
-      "morphClass": "NumOrd",
-      "pos": "Noun"
-    },
-    "terms": [
-      ["token-note" ,"token"],
-      ["eighth" ,"ásimha"],
-      ["fifth" ,"éiya"],
-      ["first" ,"áwwali"],
-      ["fourth" ,"fádiga"],
-      ["ninth" ,"aššádiga"],
-      ["second" ,"mália"],
-      ["seventh" ,"asarama"],
-      ["sixth" ,"aságwira"],
-      ["tenth" ,"támna"],
-      ["third" ,"mehéa"]
-    ]
-  },
-  {
-    "label": "bro-Nounmorph-Numeral-",
-    "note": "RPs.069 ",
-    "common": {
-      "morphClass": "Numeral",
-      "pos": "Noun"
-    },
-    "terms": [
-      ["token-note" ,"gender" ,"token"],
-      ["1 " ,"Masc" ,"gal"],
-      ["10" ,"Common" ,"támin"],
-      ["100" ,"Common" ,"še"],
-      ["1000" ,"Common" ,"támin še"],
-      ["11 " ,"Masc" ,"tamnágwir"],
-      ["11 " ,"Fem" ,"tamnágwit"],
-      ["110" ,"Common" ,"šéwa támin"],
-      ["12" ,"Common" ,"támnamále"],
-      ["13" ,"Common" ,"támnamehéi"],
-      ["14" ,"Common" ,"támnafádig"],
-      ["15" ,"Common" ,"támenei"],
-      ["16" ,"Masc" ,"támenaságwir"],
-      ["17" ,"Common" ,"támenasaráma"],
-      ["18" ,"Common" ,"támenasimhéi"],
-      ["19" ,"Common" ,"támnaššádig"],
-      ["2" ,"Common" ,"mále"],
-      ["20" ,"Masc" ,"tágug"],
-      ["200" ,"Common" ,"mále še"],
-      ["2000" ,"Common" ,"tágug še"],
-      ["21 " ,"Masc" ,"taggwágwir"],
-      ["22" ,"Common" ,"tággwamále"],
-      ["23" ,"Common" ,"tággwamehéi"],
-      ["24" ,"Common" ,"tággwafádig"],
-      ["25" ,"Common" ,"tággwéi"],
-      ["26" ,"Masc" ,"tággwaságwir"],
-      ["27" ,"Common" ,"tággwasaráma"],
-      ["28" ,"Common" ,"tággwasimhéi"],
-      ["29" ,"Common" ,"tággwaššádig"],
-      ["3" ,"Common" ,"mehei"],
-      ["30" ,"Common" ,"mehéitamun"],
-      ["300" ,"Common" ,"mehéi še"],
-      ["31 " ,"Masc" ,"mehéitamunwa gal"],
-      ["32" ,"Masc" ,"mehéitamunwa mále"],
-      ["4" ,"Common" ,"fádig"],
-      ["40" ,"Common" ,"fádigtamun"],
-      ["5" ,"Common" ,"ei"],
-      ["50" ,"Common" ,"éitamun"],
-      ["6" ,"Masc" ,"aságwir"],
-      ["6" ,"Fem" ,"aságwit"],
-      ["60" ,"Common" ,"aságwirtamun"],
-      ["7" ,"Common" ,"asaráma"],
-      ["70" ,"Common" ,"asarámatamun"],
-      ["8" ,"Common" ,"asimhéi"],
-      ["80" ,"Common" ,"asimhéitamun"],
-      ["9" ,"Common" ,"aššádig"],
-      ["90" ,"Common" ,"aššádigtamun"],
-      ["Common" ,"Fem" ,"taggwágwit"],
-      ["Common" ,"Fem" ,"tágugt"],
-      ["Common" ,"Fem" ,"támenaságwit"],
-      ["Common" ,"Fem" ,"taggwasagwit"],
-      ["p1" ,"Fem" ,"gat"]
-    ]
-  },
-  {
     "label": "bro-PronounArtDef",
-    "note": "RPs.026 ",
+    "note": "ER28s.026 ",
     "common": {
       "pos": "Pronoun",
       "proClass": "ArtDef"
@@ -376,190 +380,337 @@
   },
   {
     "label": "bro-PronounGen_PossPred",
-    "note": "RPs.107 :: for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-",
+    "note": "ER28s.107 :: for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Gen_PossPred"
+      "proClass": "Gen_PossPred",
+      "genHead": "H_Fem",
+      "numHead": "H_Plural"
     },
     "terms": [
-      ["genHead" ,"numHead" ,"number" ,"person" ,"gender" ,"token"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person1" ,"Masc" ,"-iteta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person1" ,"Fem" ,"-titeta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"-itekta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"-titekta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"-ihteta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"-tihteta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person1" ,"Masc" ,"-itenta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person1" ,"Fem" ,"-titenta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"-iteknata"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"-titeknata"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"-ihtinata"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"-tihtinata"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person1" ,"Masc" ,"-itoti"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person1" ,"Fem" ,"-titoti"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"-itokti"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"-titokti"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"-ithiti"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"-tithiti"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person1" ,"Masc" ,"-itionti"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person1" ,"Fem" ,"-titonti"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"-itoknati"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"-titoknati"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"-ithintai"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"-tihtinati"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person1" ,"Masc" ,"-iea"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person1" ,"Fem" ,"-tiea"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"-ieka"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"-tieka"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"-ihea"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"-tihea"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person1" ,"Masc" ,"-iena"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person1" ,"Fem" ,"-tiena"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"-ieknaa"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"-tieknaa"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"-ihinaa"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"-tihinaa"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person1" ,"Masc" ,"-ioi"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person1" ,"Fem" ,"-tioi"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"-ioki"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"-tioki"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"-ihii"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"-tihii"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person1" ,"Masc" ,"-ioni"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person1" ,"Fem" ,"-tioni"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"-ioknai"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"-tioknai"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"-ihinai"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"-tihinai"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-iteta"],
+      ["Singular" ,"Person1" ,"Fem" ,"-titeta"],
+      ["Singular" ,"Person2" ,"Masc" ,"-itekta"],
+      ["Singular" ,"Person2" ,"Fem" ,"-titekta"],
+      ["Singular" ,"Person3" ,"Masc" ,"-ihteta"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tihteta"],
+      ["Plural" ,"Person1" ,"Masc" ,"-itenta"],
+      ["Plural" ,"Person1" ,"Fem" ,"-titenta"],
+      ["Plural" ,"Person2" ,"Masc" ,"-iteknata"],
+      ["Plural" ,"Person2" ,"Fem" ,"-titeknata"],
+      ["Plural" ,"Person3" ,"Masc" ,"-ihtinata"],
+      ["Plural" ,"Person3" ,"Fem" ,"-tihtinata"]
+    ]
+  },
+  {
+    "label": "bro-PronounGen_PossPred",
+    "note": "ER28s.107 :: for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Gen_PossPred",
+      "genHead": "H_Fem",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-itoti"],
+      ["Singular" ,"Person1" ,"Fem" ,"-titoti"],
+      ["Singular" ,"Person2" ,"Masc" ,"-itokti"],
+      ["Singular" ,"Person2" ,"Fem" ,"-titokti"],
+      ["Singular" ,"Person3" ,"Masc" ,"-ithiti"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tithiti"],
+      ["Plural" ,"Person1" ,"Masc" ,"-itionti"],
+      ["Plural" ,"Person1" ,"Fem" ,"-titonti"],
+      ["Plural" ,"Person2" ,"Masc" ,"-itoknati"],
+      ["Plural" ,"Person2" ,"Fem" ,"-titoknati"],
+      ["Plural" ,"Person3" ,"Masc" ,"-ithintai"],
+      ["Plural" ,"Person3" ,"Fem" ,"-tihtinati"]
+    ]
+  },
+  {
+    "label": "bro-PronounGen_PossPred",
+    "note": "ER28s.107 :: for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Gen_PossPred",
+      "genHead": "H_Plural",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-iea"],
+      ["Singular" ,"Person1" ,"Fem" ,"-tiea"],
+      ["Singular" ,"Person2" ,"Masc" ,"-ieka"],
+      ["Singular" ,"Person2" ,"Fem" ,"-tieka"],
+      ["Singular" ,"Person3" ,"Masc" ,"-ihea"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tihea"],
+      ["Plural" ,"Person1" ,"Masc" ,"-iena"],
+      ["Plural" ,"Person1" ,"Fem" ,"-tiena"],
+      ["Plural" ,"Person2" ,"Masc" ,"-ieknaa"],
+      ["Plural" ,"Person2" ,"Fem" ,"-tieknaa"],
+      ["Plural" ,"Person3" ,"Masc" ,"-ihinaa"],
+      ["Plural" ,"Person3" ,"Fem" ,"-tihinaa"]
+    ]
+  },
+  {
+    "label": "bro-PronounGen_PossPred",
+    "note": "ER28s.107 :: for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Gen_PossPred",
+      "genHead": "H_Masc",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-ioi"],
+      ["Singular" ,"Person1" ,"Fem" ,"-tioi"],
+      ["Singular" ,"Person2" ,"Masc" ,"-ioki"],
+      ["Singular" ,"Person2" ,"Fem" ,"-tioki"],
+      ["Singular" ,"Person3" ,"Masc" ,"-ihii"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tihii"],
+      ["Plural" ,"Person1" ,"Masc" ,"-ioni"],
+      ["Plural" ,"Person1" ,"Fem" ,"-tioni"],
+      ["Plural" ,"Person2" ,"Masc" ,"-ioknai"],
+      ["Plural" ,"Person2" ,"Fem" ,"-tioknai"],
+      ["Plural" ,"Person3" ,"Masc" ,"-ihinai"],
+      ["Plural" ,"Person3" ,"Fem" ,"-tihinai"]
     ]
   },
   {
     "label": "bro-PronounIndependent",
-    "note": "RPs.080 ",
+    "note": "ER28s.080 ",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Independent"
+      "proClass": "Independent",
+      "case": "Object"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"gender" ,"token"],
-      ["Object" ,"Singular" ,"Person1" ,"__" ,"áneb"],
-      ["Object" ,"Singular" ,"Person2" ,"Masc" ,"barók"],
-      ["Object" ,"Singular" ,"Person2" ,"Fem" ,"batók"],
-      ["Object" ,"Singular" ,"Person3" ,"Masc" ,"baró"],
-      ["Object" ,"Singular" ,"Person3" ,"Fem" ,"bató"],
-      ["Object" ,"Plural" ,"Person1" ,"__" ,"henén"],
-      ["Object" ,"Plural" ,"Person2" ,"Masc" ,"barék(na)"],
-      ["Object" ,"Plural" ,"Person2" ,"Fem" ,"baték(na)"],
-      ["Object" ,"Plural" ,"Person3" ,"Masc" ,"bare"],
-      ["Object" ,"Plural" ,"Person3" ,"Fem" ,"baté"],
-      ["Subject" ,"Singular" ,"Person1" ,"__" ,"áne"],
-      ["Subject" ,"Singular" ,"Person2" ,"Masc" ,"baruk"],
-      ["Subject" ,"Singular" ,"Person2" ,"Fem" ,"batuk"],
-      ["Subject" ,"Singular" ,"Person3" ,"Masc" ,"baru"],
-      ["Subject" ,"Singular" ,"Person3" ,"Fem" ,"batu"],
-      ["Subject" ,"Plural" ,"Person1" ,"__" ,"henén"],
-      ["Subject" ,"Plural" ,"Person2" ,"Masc" ,"barák"],
-      ["Subject" ,"Plural" ,"Person2" ,"Fem" ,"baták"],
-      ["Subject" ,"Plural" ,"Person3" ,"Masc" ,"bará"],
-      ["Subject" ,"Plural" ,"Person3" ,"Fem" ,"batá"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"__" ,"áneb"],
+      ["Singular" ,"Person2" ,"Masc" ,"barók"],
+      ["Singular" ,"Person2" ,"Fem" ,"batók"],
+      ["Singular" ,"Person3" ,"Masc" ,"baró"],
+      ["Singular" ,"Person3" ,"Fem" ,"bató"],
+      ["Plural" ,"Person1" ,"__" ,"henḗn"],
+      ["Plural" ,"Person2" ,"Masc" ,"barḗk(na)"],
+      ["Plural" ,"Person2" ,"Fem" ,"batḗk(na)"],
+      ["Plural" ,"Person3" ,"Masc" ,"bare"],
+      ["Plural" ,"Person3" ,"Fem" ,"batḗ"]
+    ]
+  },
+  {
+    "label": "bro-PronounIndependent",
+    "note": "ER28s.080 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "case": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"__" ,"áne"],
+      ["Singular" ,"Person2" ,"Masc" ,"baruk"],
+      ["Singular" ,"Person2" ,"Fem" ,"batuk"],
+      ["Singular" ,"Person3" ,"Masc" ,"baru"],
+      ["Singular" ,"Person3" ,"Fem" ,"batu"],
+      ["Plural" ,"Person1" ,"__" ,"henḗn"],
+      ["Plural" ,"Person2" ,"Masc" ,"barák"],
+      ["Plural" ,"Person2" ,"Fem" ,"baták"],
+      ["Plural" ,"Person3" ,"Masc" ,"bará"],
+      ["Plural" ,"Person3" ,"Fem" ,"batá"]
     ]
   },
   {
     "label": "bro-PronounInterrogative",
-    "note": "RPs.110 ",
+    "note": "ER28s.110 ",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Interrogative"
+      "proClass": "Interrogative",
+      "case": "Object"
     },
     "terms": [
-      ["case" ,"numHead" ,"number" ,"person" ,"gender" ,"token"],
-      ["Object" ,"H_Common" ,"Singular" ,"Person3" ,"Masc" ,"ab"],
-      ["Object" ,"H_Common" ,"Singular" ,"Person3" ,"Fem" ,"abt"],
-      ["Object" ,"H_Common" ,"Plural" ,"Person3" ,"Masc" ,"abka"],
-      ["Object" ,"H_Common" ,"Plural" ,"Person3" ,"Fem" ,"abtka"],
-      ["Possessive" ,"H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"aigai"],
-      ["Possessive" ,"H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"aigaiet"],
-      ["Possessive" ,"H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"aigai"],
-      ["Possessive" ,"H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"aigaiet"],
-      ["Possessive" ,"H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"ai"],
-      ["Possessive" ,"H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"ait"],
-      ["Possessive" ,"H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"ai"],
-      ["Possessive" ,"H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"ait"],
-      ["Subject" ,"H_Common" ,"Singular" ,"Person3" ,"Masc" ,"au"],
-      ["Subject" ,"H_Common" ,"Singular" ,"Person3" ,"Fem" ,"aut"],
-      ["Subject" ,"H_Common" ,"Plural" ,"Person3" ,"Masc" ,"auka"],
-      ["Subject" ,"H_Common" ,"Plural" ,"Person3" ,"Fem" ,"autka"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"ab"],
+      ["Singular" ,"Person3" ,"Fem" ,"abt"],
+      ["Plural" ,"Person3" ,"Masc" ,"abka"],
+      ["Plural" ,"Person3" ,"Fem" ,"abtka"]
+    ]
+  },
+  {
+    "label": "bro-PronounInterrogative",
+    "note": "ER28s.110 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Interrogative",
+      "case": "Possessive",
+      "numHead": "H_Plural"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"aigai"],
+      ["Singular" ,"Person3" ,"Fem" ,"aigaiet"],
+      ["Plural" ,"Person3" ,"Masc" ,"aigai"],
+      ["Plural" ,"Person3" ,"Fem" ,"aigaiet"]
+    ]
+  },
+  {
+    "label": "bro-PronounInterrogative",
+    "note": "ER28s.110 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Interrogative",
+      "case": "Possessive",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"ai"],
+      ["Singular" ,"Person3" ,"Fem" ,"ait"],
+      ["Plural" ,"Person3" ,"Masc" ,"ai"],
+      ["Plural" ,"Person3" ,"Fem" ,"ait"]
+    ]
+  },
+  {
+    "label": "bro-PronounInterrogative",
+    "note": "ER28s.110 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Interrogative",
+      "case": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"au"],
+      ["Singular" ,"Person3" ,"Fem" ,"aut"],
+      ["Plural" ,"Person3" ,"Masc" ,"auka"],
+      ["Plural" ,"Person3" ,"Fem" ,"autka"]
     ]
   },
   {
     "label": "bro-PronounPossInd",
-    "note": "RPs.089 :: w. head masc nom -- see ##90-91 for head accusative or fem",
+    "note": "ER28s.089 :: w. head masc nom -- see ##90-91 for head accusative or fem",
     "common": {
       "pos": "Pronoun",
-      "proClass": "PossInd"
+      "proClass": "PossInd",
+      "numHead": "H_Plural"
     },
     "terms": [
-      ["numHead" ,"number" ,"person" ,"gender" ,"token"],
-      ["H_Plural" ,"Singular" ,"Person1" ,"Common" ,"áni"],
-      ["H_Plural" ,"Singular" ,"Person2" ,"Masc" ,"bariák"],
-      ["H_Plural" ,"Singular" ,"Person2" ,"Fem" ,"batiák"],
-      ["H_Plural" ,"Singular" ,"Person3" ,"Masc" ,"bariá"],
-      ["H_Plural" ,"Singular" ,"Person3" ,"Fem" ,"batiá"],
-      ["H_Plural" ,"Plural" ,"Person1" ,"Common" ,"híne"],
-      ["H_Plural" ,"Plural" ,"Person2" ,"Masc" ,"bareál"],
-      ["H_Plural" ,"Plural" ,"Person2" ,"Fem" ,"bateák"],
-      ["H_Plural" ,"Plural" ,"Person3" ,"Masc" ,"bareá"],
-      ["H_Plural" ,"Plural" ,"Person3" ,"Fem" ,"bateá"],
-      ["H_Singular" ,"Singular" ,"Person1" ,"Common" ,"áni"],
-      ["H_Singular" ,"Singular" ,"Person2" ,"Masc" ,"bariúk"],
-      ["H_Singular" ,"Singular" ,"Person2" ,"Fem" ,"batiúk"],
-      ["H_Singular" ,"Singular" ,"Person3" ,"Masc" ,"bariú"],
-      ["H_Singular" ,"Singular" ,"Person3" ,"Fem" ,"batiú"],
-      ["H_Singular" ,"Plural" ,"Person1" ,"Common" ,"híne"],
-      ["H_Singular" ,"Plural" ,"Person2" ,"Masc" ,"baréúk"],
-      ["H_Singular" ,"Plural" ,"Person2" ,"Fem" ,"bateúk"],
-      ["H_Singular" ,"Plural" ,"Person3" ,"Masc" ,"bareú"],
-      ["H_Singular" ,"Plural" ,"Person3" ,"Fem" ,"bateú"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"áni"],
+      ["Singular" ,"Person2" ,"Masc" ,"bariák"],
+      ["Singular" ,"Person2" ,"Fem" ,"batiák"],
+      ["Singular" ,"Person3" ,"Masc" ,"bariá"],
+      ["Singular" ,"Person3" ,"Fem" ,"batiá"],
+      ["Plural" ,"Person1" ,"Common" ,"híne"],
+      ["Plural" ,"Person2" ,"Masc" ,"bareál"],
+      ["Plural" ,"Person2" ,"Fem" ,"bateák"],
+      ["Plural" ,"Person3" ,"Masc" ,"bareá"],
+      ["Plural" ,"Person3" ,"Fem" ,"bateá"]
+    ]
+  },
+  {
+    "label": "bro-PronounPossInd",
+    "note": "ER28s.089 :: w. head masc nom -- see ##90-91 for head accusative or fem",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossInd",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"áni"],
+      ["Singular" ,"Person2" ,"Masc" ,"bariúk"],
+      ["Singular" ,"Person2" ,"Fem" ,"batiúk"],
+      ["Singular" ,"Person3" ,"Masc" ,"bariú"],
+      ["Singular" ,"Person3" ,"Fem" ,"batiú"],
+      ["Plural" ,"Person1" ,"Common" ,"híne"],
+      ["Plural" ,"Person2" ,"Masc" ,"barḗúk"],
+      ["Plural" ,"Person2" ,"Fem" ,"bateúk"],
+      ["Plural" ,"Person3" ,"Masc" ,"bareú"],
+      ["Plural" ,"Person3" ,"Fem" ,"bateú"]
     ]
   },
   {
     "label": "bro-PronounPossSuff",
-    "note": "RPs.102 ",
+    "note": "ER28s.102 ",
     "common": {
       "pos": "Pronoun",
-      "proClass": "PossSuff"
+      "proClass": "PossSuff",
+      "genHead": "H_Fem",
+      "numHead": "H_Plural"
     },
     "terms": [
-      ["genHead" ,"numHead" ,"number" ,"person" ,"token"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person1" ,"-ta"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person2" ,"-tak"],
-      ["H_Fem" ,"H_Plural" ,"Singular" ,"Person3" ,"-ta"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person1" ,"-tan"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person2" ,"-takna"],
-      ["H_Fem" ,"H_Plural" ,"Plural" ,"Person3" ,"-ta"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person1" ,"-ti"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person2" ,"-tuk"],
-      ["H_Fem" ,"H_Singular" ,"Singular" ,"Person3" ,"-tu"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person1" ,"-tun "],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person2" ,"-tukna"],
-      ["H_Fem" ,"H_Singular" ,"Plural" ,"Person3" ,"-tu"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person1" ,"-a"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person2" ,"-ak"],
-      ["H_Masc" ,"H_Plural" ,"Singular" ,"Person3" ,"-a"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person1" ,"-an"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person2" ,"-akna"],
-      ["H_Masc" ,"H_Plural" ,"Plural" ,"Person3" ,"-a"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person1" ,"-i"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person2" ,"-uk"],
-      ["H_Masc" ,"H_Singular" ,"Singular" ,"Person3" ,"-u"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person1" ,"-un"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person2" ,"-ukna"],
-      ["H_Masc" ,"H_Singular" ,"Plural" ,"Person3" ,"-u"]
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person1" ,"-ta"],
+      ["Singular" ,"Person2" ,"-tak"],
+      ["Singular" ,"Person3" ,"-ta"],
+      ["Plural" ,"Person1" ,"-tan"],
+      ["Plural" ,"Person2" ,"-takna"],
+      ["Plural" ,"Person3" ,"-ta"]
+    ]
+  },
+  {
+    "label": "bro-PronounPossSuff",
+    "note": "ER28s.102 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossSuff",
+      "genHead": "H_Fem",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person1" ,"-ti"],
+      ["Singular" ,"Person2" ,"-tuk"],
+      ["Singular" ,"Person3" ,"-tu"],
+      ["Plural" ,"Person1" ,"-tun "],
+      ["Plural" ,"Person2" ,"-tukna"],
+      ["Plural" ,"Person3" ,"-tu"]
+    ]
+  },
+  {
+    "label": "bro-PronounPossSuff",
+    "note": "ER28s.102 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossSuff",
+      "genHead": "H_Masculine",
+      "numHead": "H_Plural"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person1" ,"-a"],
+      ["Singular" ,"Person2" ,"-ak"],
+      ["Singular" ,"Person3" ,"-a"],
+      ["Plural" ,"Person1" ,"-an"],
+      ["Plural" ,"Person2" ,"-akna"],
+      ["Plural" ,"Person3" ,"-a"]
+    ]
+  },
+  {
+    "label": "bro-PronounPossSuff",
+    "note": "ER28s.102 ",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossSuff",
+      "genHead": "H_Masc",
+      "numHead": "H_Singular"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person1" ,"-i"],
+      ["Singular" ,"Person2" ,"-uk"],
+      ["Singular" ,"Person3" ,"-u"],
+      ["Plural" ,"Person1" ,"-un"],
+      ["Plural" ,"Person2" ,"-ukna"],
+      ["Plural" ,"Person3" ,"-u"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-Conditional",
-    "note": "RPs.189",
+    "note": "ER28s.189",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -570,18 +721,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"ībís"],
-      ["Singular" ,"Person2" ,"Masc" ,"tí̄bisa"],
-      ["Singular" ,"Person2" ,"Fem" ,"tí̄bisi"],
+      ["Singular" ,"Person2" ,"Masc" ,"tī́bisa"],
+      ["Singular" ,"Person2" ,"Fem" ,"tī́bisi"],
       ["Singular" ,"Person3" ,"Masc" ,"ī̄bís"],
       ["Singular" ,"Person3" ,"Fem" ,"tībís"],
       ["Plural" ,"Person1" ,"Common" ,"nībís"],
-      ["Plural" ,"Person2" ,"Common" ,"tí̄bisna"],
-      ["Plural" ,"Person3" ,"Common" ,"í̄bisna"]
+      ["Plural" ,"Person2" ,"Common" ,"tī́bisna"],
+      ["Plural" ,"Person3" ,"Common" ,"ī́bisna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-ConditionalPerfect",
-    "note": "RPs.189",
+    "note": "ER28s.189",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -607,7 +758,7 @@
   },
   {
     "label": "bro-VerbPrefixCC-bis-FutureAffirmative",
-    "note": "RPs.183",
+    "note": "ER28s.183",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -619,18 +770,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"ībís ánde"],
-      ["Singular" ,"Person2" ,"Masc" ,"ībís téndea"],
-      ["Singular" ,"Person2" ,"Fem" ,"ībís téndī"],
+      ["Singular" ,"Person2" ,"Masc" ,"ībís tḗndea"],
+      ["Singular" ,"Person2" ,"Fem" ,"ībís tḗndī"],
       ["Singular" ,"Person3" ,"Masc" ,"ībís índi"],
-      ["Singular" ,"Person3" ,"Fem" ,"ībís téndi"],
+      ["Singular" ,"Person3" ,"Fem" ,"ībís tḗndi"],
       ["Plural" ,"Person1" ,"Common" ,"nībís nɛád"],
-      ["Plural" ,"Person2" ,"Common" ,"ībís tɛédna"],
-      ["Plural" ,"Person3" ,"Common" ,"ībís ɛédna"]
+      ["Plural" ,"Person2" ,"Common" ,"ībís tɛḗdna"],
+      ["Plural" ,"Person3" ,"Common" ,"ībís ɛḗdna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-FutureNegative",
-    "note": "RPs.183 :: cf. 137. 139",
+    "note": "ER28s.183 :: cf. 137. 139",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -641,19 +792,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ībís ká̄ade"],
+      ["Singular" ,"Person1" ,"Common" ,"ībís kā́ade"],
       ["Singular" ,"Person2" ,"Masc" ,"ībís kíddea"],
       ["Singular" ,"Person2" ,"Fem" ,"ībís kíddī"],
-      ["Singular" ,"Person3" ,"Masc" ,"ībís kí̄di"],
+      ["Singular" ,"Person3" ,"Masc" ,"ībís kī́di"],
       ["Singular" ,"Person3" ,"Fem" ,"ībís kíddi"],
       ["Plural" ,"Person1" ,"Common" ,"ībís kínde"],
       ["Plural" ,"Person2" ,"Common" ,"ībís kíddīna"],
-      ["Plural" ,"Person3" ,"Common" ,"ībís kí̄dīna"]
+      ["Plural" ,"Person3" ,"Common" ,"ībís kī́dīna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-ImperativeAffirmative",
-    "note": "RPs.176",
+    "note": "ER28s.176",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -671,7 +822,7 @@
   },
   {
     "label": "bro-VerbPrefixCC-bis-OptativeAffirmative",
-    "note": "RPs.190",
+    "note": "ER28s.190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -682,19 +833,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bá̄ībís"],
-      ["Singular" ,"Person2" ,"Masc" ,"bá̄tí̄bisa"],
-      ["Singular" ,"Person2" ,"Fem" ,"bá̄tí̄bisi"],
-      ["Singular" ,"Person3" ,"Masc" ,"bá̄ī̄bís"],
-      ["Singular" ,"Person3" ,"Fem" ,"bá̄tībís"],
-      ["Plural" ,"Person1" ,"Common" ,"bá̄nībís"],
-      ["Plural" ,"Person2" ,"Common" ,"bá̄tí̄bisna"],
-      ["Plural" ,"Person3" ,"Common" ,"bá̄í̄bisna"]
+      ["Singular" ,"Person1" ,"Common" ,"bā́ībís"],
+      ["Singular" ,"Person2" ,"Masc" ,"bā́tī́bisa"],
+      ["Singular" ,"Person2" ,"Fem" ,"bā́tī́bisi"],
+      ["Singular" ,"Person3" ,"Masc" ,"bā́ī̄bís"],
+      ["Singular" ,"Person3" ,"Fem" ,"bā́tībís"],
+      ["Plural" ,"Person1" ,"Common" ,"bā́nībís"],
+      ["Plural" ,"Person2" ,"Common" ,"bā́tī́bisna"],
+      ["Plural" ,"Person3" ,"Common" ,"bā́ī́bisna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-OptativeNegative",
-    "note": "RPs.191",
+    "note": "ER28s.191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -705,19 +856,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bābí̄s"],
+      ["Singular" ,"Person1" ,"Common" ,"bābī́s"],
       ["Singular" ,"Person2" ,"Masc" ,"bítbīsa"],
       ["Singular" ,"Person2" ,"Fem" ,"bítbīsi"],
-      ["Singular" ,"Person3" ,"Masc" ,"bībí̄s"],
-      ["Singular" ,"Person3" ,"Fem" ,"bitbí̄s"],
-      ["Plural" ,"Person1" ,"Common" ,"binbí̄s"],
+      ["Singular" ,"Person3" ,"Masc" ,"bībī́s"],
+      ["Singular" ,"Person3" ,"Fem" ,"bitbī́s"],
+      ["Plural" ,"Person1" ,"Common" ,"binbī́s"],
       ["Plural" ,"Person2" ,"Common" ,"bítbīsna"],
-      ["Plural" ,"Person3" ,"Common" ,"bí̄bīsna"]
+      ["Plural" ,"Person3" ,"Common" ,"bī́bīsna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-PastAffirmative",
-    "note": "RPs.179",
+    "note": "ER28s.179",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -740,7 +891,7 @@
   },
   {
     "label": "bro-VerbPrefixCC-bis-PastNegative",
-    "note": "RPs.178",
+    "note": "ER28s.178",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -751,23 +902,23 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"bisá̄b ká̄ake"],
-      ["Singular" ,"Person1" ,"Fem" ,"bisá̄t ká̄ake"],
-      ["Singular" ,"Person2" ,"Masc" ,"bisá̄b kittã"],
-      ["Singular" ,"Person2" ,"Fem" ,"bisá̄t kittai"],
-      ["Singular" ,"Person3" ,"Masc" ,"bisá̄b kikĕ"],
-      ["Singular" ,"Person3" ,"Fem" ,"bisá̄t kittĕ"],
-      ["Plural" ,"Person1" ,"Masc" ,"bisá̄b kínkĕ"],
-      ["Plural" ,"Person1" ,"Fem" ,"bisá̄t kínkĕ"],
-      ["Plural" ,"Person2" ,"Masc" ,"bisá̄b kíttena"],
-      ["Plural" ,"Person2" ,"Fem" ,"bisá̄t kíttena"],
-      ["Plural" ,"Person3" ,"Masc" ,"bisá̄b kí̄ken"],
-      ["Plural" ,"Person3" ,"Fem" ,"bisá̄t kí̄ken"]
+      ["Singular" ,"Person1" ,"Masc" ,"bisā́b kā́ake"],
+      ["Singular" ,"Person1" ,"Fem" ,"bisā́t kā́ake"],
+      ["Singular" ,"Person2" ,"Masc" ,"bisā́b kittã"],
+      ["Singular" ,"Person2" ,"Fem" ,"bisā́t kittai"],
+      ["Singular" ,"Person3" ,"Masc" ,"bisā́b kikĕ"],
+      ["Singular" ,"Person3" ,"Fem" ,"bisā́t kittĕ"],
+      ["Plural" ,"Person1" ,"Masc" ,"bisā́b kínkĕ"],
+      ["Plural" ,"Person1" ,"Fem" ,"bisā́t kínkĕ"],
+      ["Plural" ,"Person2" ,"Masc" ,"bisā́b kíttena"],
+      ["Plural" ,"Person2" ,"Fem" ,"bisā́t kíttena"],
+      ["Plural" ,"Person3" ,"Masc" ,"bisā́b kī́ken"],
+      ["Plural" ,"Person3" ,"Fem" ,"bisā́t kī́ken"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-PastSubjunctiveAffirmative",
-    "note": "RPs.184",
+    "note": "ER28s.184",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -778,17 +929,17 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"abĭsék"],
-      ["Singular" ,"Person2" ,"Common" ,"tibĭ̆sék"],
-      ["Singular" ,"Person3" ,"Common" ,"ibĭsék"],
-      ["Plural" ,"Person1" ,"Common" ,"nibĭsék"],
-      ["Plural" ,"Person2" ,"Common" ,"tibĭsnék(na)"],
-      ["Plural" ,"Person3" ,"Common" ,"ibĭsnék(na)"]
+      ["Singular" ,"Person1" ,"Common" ,"abĭsḗk"],
+      ["Singular" ,"Person2" ,"Common" ,"tibĭ̆sḗk"],
+      ["Singular" ,"Person3" ,"Common" ,"ibĭsḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"nibĭsḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"tibĭsnḗk(na)"],
+      ["Plural" ,"Person3" ,"Common" ,"ibĭsnḗk(na)"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-PastSubjunctiveNegative",
-    "note": "RPs.185",
+    "note": "ER28s.185",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -799,23 +950,23 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"bisāb bākaiyék"],
-      ["Singular" ,"Person1" ,"Fem" ,"bisāt bā̄kaiyék"],
-      ["Singular" ,"Person2" ,"Masc" ,"bisāb bitkaiyék"],
-      ["Singular" ,"Person2" ,"Fem" ,"bisāt bitkaiyék"],
-      ["Singular" ,"Person3" ,"Masc" ,"bisāb bikaiyék"],
-      ["Singular" ,"Person3" ,"Fem" ,"bisāt bikaiyék"],
-      ["Plural" ,"Person1" ,"Masc" ,"bisāb binkaiyék"],
-      ["Plural" ,"Person1" ,"Fem" ,"bisāt binkaiyék"],
-      ["Plural" ,"Person2" ,"Masc" ,"bisāb bitkaīnék"],
-      ["Plural" ,"Person2" ,"Fem" ,"bisāt bitkaīnék"],
-      ["Plural" ,"Person3" ,"Masc" ,"bisāb bīkaīnék"],
-      ["Plural" ,"Person3" ,"Fem" ,"bisāt bīkaīnék"]
+      ["Singular" ,"Person1" ,"Masc" ,"bisāb bākaiyḗk"],
+      ["Singular" ,"Person1" ,"Fem" ,"bisāt bā̄kaiyḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"bisāb bitkaiyḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"bisāt bitkaiyḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"bisāb bikaiyḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"bisāt bikaiyḗk"],
+      ["Plural" ,"Person1" ,"Masc" ,"bisāb binkaiyḗk"],
+      ["Plural" ,"Person1" ,"Fem" ,"bisāt binkaiyḗk"],
+      ["Plural" ,"Person2" ,"Masc" ,"bisāb bitkaīnḗk"],
+      ["Plural" ,"Person2" ,"Fem" ,"bisāt bitkaīnḗk"],
+      ["Plural" ,"Person3" ,"Masc" ,"bisāb bīkaīnḗk"],
+      ["Plural" ,"Person3" ,"Fem" ,"bisāt bīkaīnḗk"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-PredicativeAffirmative",
-    "note": "RPs.182",
+    "note": "ER28s.182",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -842,7 +993,7 @@
   },
   {
     "label": "bro-VerbPrefixCC-bis-PresentNegative",
-    "note": "RPs.181",
+    "note": "ER28s.181",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -853,19 +1004,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ká̄bis"],
+      ["Singular" ,"Person1" ,"Common" ,"kā́bis"],
       ["Singular" ,"Person2" ,"Masc" ,"kítbīsa"],
       ["Singular" ,"Person2" ,"Fem" ,"kítbīsi"],
-      ["Singular" ,"Person3" ,"Masc" ,"kí̄bis"],
+      ["Singular" ,"Person3" ,"Masc" ,"kī́bis"],
       ["Singular" ,"Person3" ,"Fem" ,"kítbis"],
       ["Plural" ,"Person1" ,"Common" ,"kínbis"],
       ["Plural" ,"Person2" ,"Common" ,"kítbisna"],
-      ["Plural" ,"Person3" ,"Common" ,"kí̄bisna"]
+      ["Plural" ,"Person3" ,"Common" ,"kī́bisna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-PresentSubjenctiveAffirmative",
-    "note": "RPs.186",
+    "note": "ER28s.186",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -876,17 +1027,17 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ambīsék"],
-      ["Singular" ,"Person2" ,"Common" ,"timbīsék"],
-      ["Singular" ,"Person3" ,"Common" ,"imbīsék"],
-      ["Plural" ,"Person1" ,"Common" ,"nɛbĭ̆sék"],
-      ["Plural" ,"Person2" ,"Common" ,"tɛbĭsék(na)"],
-      ["Plural" ,"Person3" ,"Common" ,"ɛbĭsnék(na)"]
+      ["Singular" ,"Person1" ,"Common" ,"ambīsḗk"],
+      ["Singular" ,"Person2" ,"Common" ,"timbīsḗk"],
+      ["Singular" ,"Person3" ,"Common" ,"imbīsḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"nɛbĭ̆sḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"tɛbĭsḗk(na)"],
+      ["Plural" ,"Person3" ,"Common" ,"ɛbĭsnḗk(na)"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-bis-PresentSubjunctiveNegative",
-    "note": "RPs.187",
+    "note": "ER28s.187",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "bis",
@@ -897,17 +1048,17 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bābīsék"],
-      ["Singular" ,"Person2" ,"Common" ,"bitbīsék"],
-      ["Singular" ,"Person3" ,"Common" ,"bībīsék"],
-      ["Plural" ,"Person1" ,"Common" ,"binbīsnék"],
-      ["Plural" ,"Person2" ,"Common" ,"bitbīsnék(na)"],
-      ["Plural" ,"Person3" ,"Common" ,"bībīsnék(na)"]
+      ["Singular" ,"Person1" ,"Common" ,"bābīsḗk"],
+      ["Singular" ,"Person2" ,"Common" ,"bitbīsḗk"],
+      ["Singular" ,"Person3" ,"Common" ,"bībīsḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"binbīsnḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"bitbīsnḗk(na)"],
+      ["Plural" ,"Person3" ,"Common" ,"bībīsnḗk(na)"]
     ]
   },
   {
     "label": "bro-VerbPrefixCC-dif-PastAffirmative",
-    "note": "RPs.179-182 :: [Roper also gives pres neg in predicative of dif – not yet included]",
+    "note": "ER28s.179-182 :: [Roper also gives pres neg in predicative of dif – not yet included]",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "dif",
@@ -930,7 +1081,7 @@
   },
   {
     "label": "bro-VerbPrefixCC-dif-PresentAffirmative",
-    "note": "RPs.179-182 :: [Roper also gives pres neg in predicative of dif – not yet included]",
+    "note": "ER28s.179-182 :: [Roper also gives pres neg in predicative of dif – not yet included]",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "dif",
@@ -941,11 +1092,11 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"andí̄f"],
+      ["Singular" ,"Person1" ,"Common" ,"andī́f"],
       ["Singular" ,"Person2" ,"Masc" ,"tíndīfa"],
       ["Singular" ,"Person2" ,"Fem" ,"tíndīfi"],
-      ["Singular" ,"Person3" ,"Masc" ,"indí̄̄f"],
-      ["Singular" ,"Person3" ,"Fem" ,"tindí̄f"],
+      ["Singular" ,"Person3" ,"Masc" ,"indī́̄f"],
+      ["Singular" ,"Person3" ,"Fem" ,"tindī́f"],
       ["Plural" ,"Person1" ,"Common" ,"nɛdíf"],
       ["Plural" ,"Person2" ,"Common" ,"tɛdifna"],
       ["Plural" ,"Person3" ,"Common" ,"ɛdifna"]
@@ -953,7 +1104,7 @@
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-Conditional",
-    "note": "RPs.206",
+    "note": "ER28s.206",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -964,18 +1115,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"īktím"],
-      ["Singular" ,"Person2" ,"Masc" ,"tí̄ktima"],
-      ["Singular" ,"Person2" ,"Fem" ,"tí̄ktimi"],
+      ["Singular" ,"Person2" ,"Masc" ,"tī́ktima"],
+      ["Singular" ,"Person2" ,"Fem" ,"tī́ktimi"],
       ["Singular" ,"Person3" ,"Masc" ,"īktím"],
       ["Singular" ,"Person3" ,"Fem" ,"tīktím"],
       ["Plural" ,"Person1" ,"Common" ,"nīktím"],
-      ["Plural" ,"Person2" ,"Common" ,"tí̄ktimna"],
-      ["Plural" ,"Person3" ,"Common" ,"í̄ktimna"]
+      ["Plural" ,"Person2" ,"Common" ,"tī́ktimna"],
+      ["Plural" ,"Person3" ,"Common" ,"ī́ktimna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-ImperativeAffirmative",
-    "note": "RPs.198",
+    "note": "ER28s.198",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -993,7 +1144,7 @@
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-OptativeAffirmative",
-    "note": "RPs.207",
+    "note": "ER28s.207",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1005,18 +1156,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"bāīktím"],
-      ["Singular" ,"Person2" ,"Masc" ,"bātí̄ktima"],
-      ["Singular" ,"Person2" ,"Fem" ,"bātí̄ktimi"],
+      ["Singular" ,"Person2" ,"Masc" ,"bātī́ktima"],
+      ["Singular" ,"Person2" ,"Fem" ,"bātī́ktimi"],
       ["Singular" ,"Person3" ,"Masc" ,"bāīktím"],
       ["Singular" ,"Person3" ,"Fem" ,"bātīktím"],
       ["Plural" ,"Person1" ,"Common" ,"bānīktím"],
-      ["Plural" ,"Person2" ,"Common" ,"bātí̄ktimna"],
-      ["Plural" ,"Person3" ,"Common" ,"bāí̄ktimna"]
+      ["Plural" ,"Person2" ,"Common" ,"bātī́ktimna"],
+      ["Plural" ,"Person3" ,"Common" ,"bāī́ktimna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-OptativeNegative",
-    "note": "RPs.208",
+    "note": "ER28s.208",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1027,19 +1178,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bākatí̄m"],
-      ["Singular" ,"Person2" ,"Masc" ,"bitkatí̄m"],
-      ["Singular" ,"Person2" ,"Fem" ,"bitkatí̄m"],
-      ["Singular" ,"Person3" ,"Masc" ,"bīkatí̄m"],
-      ["Singular" ,"Person3" ,"Fem" ,"bitkatí̄m"],
-      ["Plural" ,"Person1" ,"Common" ,"binkatí̄m"],
+      ["Singular" ,"Person1" ,"Common" ,"bākatī́m"],
+      ["Singular" ,"Person2" ,"Masc" ,"bitkatī́m"],
+      ["Singular" ,"Person2" ,"Fem" ,"bitkatī́m"],
+      ["Singular" ,"Person3" ,"Masc" ,"bīkatī́m"],
+      ["Singular" ,"Person3" ,"Fem" ,"bitkatī́m"],
+      ["Plural" ,"Person1" ,"Common" ,"binkatī́m"],
       ["Plural" ,"Person2" ,"Common" ,"bitkátīmna"],
       ["Plural" ,"Person3" ,"Common" ,"bīkátīmna"]
     ]
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-PastAffirmative",
-    "note": "RPs.199",
+    "note": "ER28s.199",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1062,7 +1213,7 @@
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-PastNegative",
-    "note": "RPs.200",
+    "note": "ER28s.200",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1073,8 +1224,8 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"kitmāb ká̄ake"],
-      ["Singular" ,"Person1" ,"Fem" ,"kitmāt ká̄ake"],
+      ["Singular" ,"Person1" ,"Masc" ,"kitmāb kā́ake"],
+      ["Singular" ,"Person1" ,"Fem" ,"kitmāt kā́ake"],
       ["Singular" ,"Person2" ,"Masc" ,"kitmāb kittã"],
       ["Singular" ,"Person2" ,"Fem" ,"kitmāt kittai"],
       ["Singular" ,"Person3" ,"Masc" ,"kitmāb kikĕ"],
@@ -1083,13 +1234,13 @@
       ["Plural" ,"Person1" ,"Fem" ,"kitmāt kínkĕ"],
       ["Plural" ,"Person2" ,"Masc" ,"kitmāb kíttena"],
       ["Plural" ,"Person2" ,"Fem" ,"kitmāt kíttena"],
-      ["Plural" ,"Person3" ,"Masc" ,"kitmāb kí̄ken"],
-      ["Plural" ,"Person3" ,"Fem" ,"kitmāt kí̄ken"]
+      ["Plural" ,"Person3" ,"Masc" ,"kitmāb kī́ken"],
+      ["Plural" ,"Person3" ,"Fem" ,"kitmāt kī́ken"]
     ]
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-Predicative",
-    "note": "RPs.204",
+    "note": "ER28s.204",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1115,7 +1266,7 @@
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-PresentAffirmative",
-    "note": "RPs.201",
+    "note": "ER28s.201",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1138,7 +1289,7 @@
   },
   {
     "label": "bro-VerbPrefixCCC-kitim-PresentNegative",
-    "note": "RPs.203",
+    "note": "ER28s.203",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1149,19 +1300,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ká̄ktim"],
+      ["Singular" ,"Person1" ,"Common" ,"kā́ktim"],
       ["Singular" ,"Person2" ,"Masc" ,"kítkitima"],
       ["Singular" ,"Person2" ,"Fem" ,"kítkitimi"],
-      ["Singular" ,"Person3" ,"Masc" ,"kí̄ktim"],
+      ["Singular" ,"Person3" ,"Masc" ,"kī́ktim"],
       ["Singular" ,"Person3" ,"Fem" ,"kítkitim"],
       ["Plural" ,"Person1" ,"Common" ,"kínkitim"],
       ["Plural" ,"Person2" ,"Common" ,"kítkitimna"],
-      ["Plural" ,"Person3" ,"Common" ,"kí̄ktimna"]
+      ["Plural" ,"Person3" ,"Common" ,"kī́ktimna"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-Conditional",
-    "note": "RPs.148 :: suffixes also in 148",
+    "note": "ER28s.148 :: suffixes also in 148",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1182,7 +1333,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-ConditionalPredicative",
-    "note": "RPs.155",
+    "note": "ER28s.155",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1207,7 +1358,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-FutureAffirmative",
-    "note": "RPs.137",
+    "note": "ER28s.137",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1218,18 +1369,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"tám ande"],
-      ["Singular" ,"Person2" ,"Masc" ,"támi téndea"],
-      ["Singular" ,"Person2" ,"Fem" ,"támi téndī"],
+      ["Singular" ,"Person2" ,"Masc" ,"támi tḗndea"],
+      ["Singular" ,"Person2" ,"Fem" ,"támi tḗndī"],
       ["Singular" ,"Person3" ,"Masc" ,"tám índi"],
-      ["Singular" ,"Person3" ,"Fem" ,"támi téndi"],
+      ["Singular" ,"Person3" ,"Fem" ,"támi tḗndi"],
       ["Plural" ,"Person1" ,"Common" ,"támi nɛád"],
-      ["Plural" ,"Person2" ,"Common" ,"támi tɛédna"],
-      ["Plural" ,"Person3" ,"Common" ,"támi ɛédna"]
+      ["Plural" ,"Person2" ,"Common" ,"támi tɛḗdna"],
+      ["Plural" ,"Person3" ,"Common" ,"támi ɛḗdna"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-FutureNegative",
-    "note": "RPs.139",
+    "note": "ER28s.139",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1239,19 +1390,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"támi ká̄ade"],
+      ["Singular" ,"Person1" ,"Common" ,"támi kā́ade"],
       ["Singular" ,"Person2" ,"Masc" ,"támi kíddea"],
       ["Singular" ,"Person2" ,"Fem" ,"támi kíddī"],
-      ["Singular" ,"Person3" ,"Masc" ,"támi kí̄di"],
+      ["Singular" ,"Person3" ,"Masc" ,"támi kī́di"],
       ["Singular" ,"Person3" ,"Fem" ,"támi kíddi"],
       ["Plural" ,"Person1" ,"Common" ,"támi kínde"],
       ["Plural" ,"Person2" ,"Common" ,"támi kíddīna"],
-      ["Plural" ,"Person3" ,"Common" ,"tami kí̄dīna"]
+      ["Plural" ,"Person3" ,"Common" ,"tami kī́dīna"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-FutureSubjunctiveAffirmative",
-    "note": "RPs.146",
+    "note": "ER28s.146",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1261,19 +1412,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"tám andiék"],
-      ["Singular" ,"Person2" ,"Masc" ,"támi tendiyék"],
-      ["Singular" ,"Person2" ,"Fem" ,"támi tendiyék"],
-      ["Singular" ,"Person3" ,"Masc" ,"tám indiék"],
-      ["Singular" ,"Person3" ,"Fem" ,"támi tindiék"],
-      ["Plural" ,"Person1" ,"Common" ,"támi nɛãdék"],
-      ["Plural" ,"Person2" ,"Common" ,"támi tɛednék"],
-      ["Plural" ,"Person3" ,"Common" ,"támi ɛednék"]
+      ["Singular" ,"Person1" ,"Common" ,"tám andiḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"támi tendiyḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"támi tendiyḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"tám indiḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"támi tindiḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"támi nɛãdḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"támi tɛednḗk"],
+      ["Plural" ,"Person3" ,"Common" ,"támi ɛednḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-FutureSubjunctiveNegative",
-    "note": "RPs.146",
+    "note": "ER28s.146",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1283,19 +1434,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"támi bādiék"],
-      ["Singular" ,"Person2" ,"Masc" ,"támi biddeék"],
-      ["Singular" ,"Person2" ,"Fem" ,"támi biddeék"],
-      ["Singular" ,"Person3" ,"Masc" ,"támi bīdiék"],
-      ["Singular" ,"Person3" ,"Fem" ,"támi biddeék"],
-      ["Plural" ,"Person1" ,"Common" ,"támi bindeék"],
-      ["Plural" ,"Person2" ,"Common" ,"támi biddīnék"],
-      ["Plural" ,"Person3" ,"Common" ,"támi bīdīnék"]
+      ["Singular" ,"Person1" ,"Common" ,"támi bādiḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"támi biddeḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"támi biddeḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"támi bīdiḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"támi biddeḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"támi bindeḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"támi biddīnḗk"],
+      ["Plural" ,"Person3" ,"Common" ,"támi bīdīnḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-OptativeAffirmative",
-    "note": "RPs.157",
+    "note": "ER28s.157",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1306,18 +1457,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"bãtami"],
-      ["Singular" ,"Person2" ,"Masc" ,"bá̄tamtia"],
-      ["Singular" ,"Person2" ,"Fem" ,"bá̄tamtii"],
-      ["Singular" ,"Person3" ,"Masc" ,"bá̄tami"],
-      ["Singular" ,"Person3" ,"Fem" ,"bá̄tamti"],
-      ["Plural" ,"Person1" ,"Common" ,"bá̄tamni"],
-      ["Plural" ,"Person2" ,"Common" ,"bá̄tamtīna"],
-      ["Plural" ,"Person3" ,"Common" ,"bá̄tamīn"]
+      ["Singular" ,"Person2" ,"Masc" ,"bā́tamtia"],
+      ["Singular" ,"Person2" ,"Fem" ,"bā́tamtii"],
+      ["Singular" ,"Person3" ,"Masc" ,"bā́tami"],
+      ["Singular" ,"Person3" ,"Fem" ,"bā́tamti"],
+      ["Plural" ,"Person1" ,"Common" ,"bā́tamni"],
+      ["Plural" ,"Person2" ,"Common" ,"bā́tamtīna"],
+      ["Plural" ,"Person3" ,"Common" ,"bā́tamīn"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-OptativeNegative",
-    "note": "RPs.158f",
+    "note": "ER28s.158f",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1339,7 +1490,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-PastAffirmative",
-    "note": "RPs.128",
+    "note": "ER28s.128",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1361,7 +1512,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-PastContinuousAffirmative",
-    "note": "RPs.257 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]",
+    "note": "ER28s.257 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1372,18 +1523,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"tamán īfi"],
-      ["Singular" ,"Person2" ,"Masc" ,"tamtai tí̄fiya"],
+      ["Singular" ,"Person2" ,"Masc" ,"tamtai tī́fiya"],
       ["Singular" ,"Person2" ,"Fem" ,"tamtai tīfiyi"],
-      ["Singular" ,"Person3" ,"Masc" ,"tamiá í̄fi"],
+      ["Singular" ,"Person3" ,"Masc" ,"tamiá ī́fi"],
       ["Singular" ,"Person3" ,"Fem" ,"tamtai tīfi"],
-      ["Plural" ,"Person1" ,"Common" ,"tamnai ní̄fi"],
-      ["Plural" ,"Person2" ,"Common" ,"tamtá̄na tí̄fīna"],
-      ["Plural" ,"Person3" ,"Common" ,"tamiá̄n í̄fīn(a)"]
+      ["Plural" ,"Person1" ,"Common" ,"tamnai nī́fi"],
+      ["Plural" ,"Person2" ,"Common" ,"tamtā́na tī́fīna"],
+      ["Plural" ,"Person3" ,"Common" ,"tamiā́n ī́fīn(a)"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PastNegative",
-    "note": "RPs.129f",
+    "note": "ER28s.129f",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1403,13 +1554,13 @@
       ["Plural" ,"Person1" ,"Fem" ,"tamat kínkĕ"],
       ["Plural" ,"Person2" ,"Masc" ,"tamab kíttena"],
       ["Plural" ,"Person2" ,"Fem" ,"tamat kíttena"],
-      ["Plural" ,"Person3" ,"Masc" ,"tamab kí̄ken"],
-      ["Plural" ,"Person3" ,"Fem" ,"tamat kí̄ken"]
+      ["Plural" ,"Person3" ,"Masc" ,"tamab kī́ken"],
+      ["Plural" ,"Person3" ,"Fem" ,"tamat kī́ken"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PastPerfectSubjunctiveAffirmative",
-    "note": "RPs.142",
+    "note": "ER28s.142",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1419,23 +1570,23 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"tamāb akatiyék"],
-      ["Singular" ,"Person1" ,"Fem" ,"tamāt akatiyék"],
-      ["Singular" ,"Person2" ,"Masc" ,"tamāb tekatiyék"],
-      ["Singular" ,"Person2" ,"Fem" ,"tamāt tekatiyék"],
-      ["Singular" ,"Person3" ,"Masc" ,"tamāb ikatiyék"],
-      ["Singular" ,"Person3" ,"Fem" ,"tamāt ikatiyék"],
-      ["Plural" ,"Person1" ,"Masc" ,"tamāb nekatiyék"],
-      ["Plural" ,"Person1" ,"Fem" ,"tamāt nekatiyék"],
-      ["Plural" ,"Person2" ,"Masc" ,"tamāb tekatīnék"],
-      ["Plural" ,"Person2" ,"Fem" ,"tamāt tekatīnék"],
-      ["Plural" ,"Person3" ,"Masc" ,"tamāb ikatīnék"],
-      ["Plural" ,"Person3" ,"Fem" ,"tamāt ikatīnék"]
+      ["Singular" ,"Person1" ,"Masc" ,"tamāb akatiyḗk"],
+      ["Singular" ,"Person1" ,"Fem" ,"tamāt akatiyḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"tamāb tekatiyḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"tamāt tekatiyḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"tamāb ikatiyḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamāt ikatiyḗk"],
+      ["Plural" ,"Person1" ,"Masc" ,"tamāb nekatiyḗk"],
+      ["Plural" ,"Person1" ,"Fem" ,"tamāt nekatiyḗk"],
+      ["Plural" ,"Person2" ,"Masc" ,"tamāb tekatīnḗk"],
+      ["Plural" ,"Person2" ,"Fem" ,"tamāt tekatīnḗk"],
+      ["Plural" ,"Person3" ,"Masc" ,"tamāb ikatīnḗk"],
+      ["Plural" ,"Person3" ,"Fem" ,"tamāt ikatīnḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PastSubjunctiveAffirmative",
-    "note": "RPs.141",
+    "note": "ER28s.141",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1445,19 +1596,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"tamanék"],
-      ["Singular" ,"Person2" ,"Masc" ,"tamtānék"],
-      ["Singular" ,"Person2" ,"Fem" ,"tamtānék"],
-      ["Singular" ,"Person3" ,"Masc" ,"tamiănék"],
-      ["Singular" ,"Person3" ,"Fem" ,"tamtanék"],
-      ["Plural" ,"Person1" ,"Common" ,"tamnānék"],
-      ["Plural" ,"Person2" ,"Common" ,"tamtānék"],
-      ["Plural" ,"Person3" ,"Common" ,"tamiānék"]
+      ["Singular" ,"Person1" ,"Common" ,"tamanḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"tamtānḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"tamtānḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"tamiănḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamtanḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"tamnānḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"tamtānḗk"],
+      ["Plural" ,"Person3" ,"Common" ,"tamiānḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PastSubjunctiveNegative",
-    "note": "RPs.143",
+    "note": "ER28s.143",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1467,23 +1618,23 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Masc" ,"tamāb bākaiyék"],
-      ["Singular" ,"Person1" ,"Fem" ,"tamāt bā̄kaiyék"],
-      ["Singular" ,"Person2" ,"Masc" ,"tamāb bitkaiyék"],
-      ["Singular" ,"Person2" ,"Fem" ,"tamāt bitkaiyék"],
-      ["Singular" ,"Person3" ,"Masc" ,"tamāb bikaiyék"],
-      ["Singular" ,"Person3" ,"Fem" ,"tamāt bikaiyék"],
-      ["Plural" ,"Person1" ,"Masc" ,"tamāb binkaiyék"],
-      ["Plural" ,"Person1" ,"Fem" ,"tamāt binkaiyék"],
-      ["Plural" ,"Person2" ,"Masc" ,"tamāb bitkaīnék"],
-      ["Plural" ,"Person2" ,"Fem" ,"tamāt bitkaīnék"],
-      ["Plural" ,"Person3" ,"Masc" ,"tamāb bīkaīnék"],
-      ["Plural" ,"Person3" ,"Fem" ,"tamāt bīkaīnék"]
+      ["Singular" ,"Person1" ,"Masc" ,"tamāb bākaiyḗk"],
+      ["Singular" ,"Person1" ,"Fem" ,"tamāt bā̄kaiyḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"tamāb bitkaiyḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"tamāt bitkaiyḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"tamāb bikaiyḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamāt bikaiyḗk"],
+      ["Plural" ,"Person1" ,"Masc" ,"tamāb binkaiyḗk"],
+      ["Plural" ,"Person1" ,"Fem" ,"tamāt binkaiyḗk"],
+      ["Plural" ,"Person2" ,"Masc" ,"tamāb bitkaīnḗk"],
+      ["Plural" ,"Person2" ,"Fem" ,"tamāt bitkaīnḗk"],
+      ["Plural" ,"Person3" ,"Masc" ,"tamāb bīkaīnḗk"],
+      ["Plural" ,"Person3" ,"Fem" ,"tamāt bīkaīnḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PresentAffirmative",
-    "note": "RPs.131-134",
+    "note": "ER28s.131-134",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1505,7 +1656,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-PresentContinuousAffirmative",
-    "note": "RPs.258 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]",
+    "note": "ER28s.258 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1515,19 +1666,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"tamán ‘ahé̆"],
+      ["Singular" ,"Person1" ,"Common" ,"tamán ‘ahḗ̆"],
       ["Singular" ,"Person2" ,"Masc" ,"tamtai thá̆ya"],
-      ["Singular" ,"Person2" ,"Fem" ,"tamtai théyi"],
-      ["Singular" ,"Person3" ,"Masc" ,"tamiai ‘ihé̆"],
-      ["Singular" ,"Person3" ,"Fem" ,"tamtai tehé̆"],
-      ["Plural" ,"Person1" ,"Common" ,"tamnai nehé̆"],
-      ["Plural" ,"Person2" ,"Common" ,"tamtá̆na tihéna"],
-      ["Plural" ,"Person3" ,"Common" ,"tamiá̆n ‘ihén"]
+      ["Singular" ,"Person2" ,"Fem" ,"tamtai thḗyi"],
+      ["Singular" ,"Person3" ,"Masc" ,"tamiai ‘ihḗ̆"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamtai tehḗ̆"],
+      ["Plural" ,"Person1" ,"Common" ,"tamnai nehḗ̆"],
+      ["Plural" ,"Person2" ,"Common" ,"tamtá̆na tihḗna"],
+      ["Plural" ,"Person3" ,"Common" ,"tamiá̆n ‘ihḗn"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PresentContinuousNegative",
-    "note": "RPs.258 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]",
+    "note": "ER28s.258 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1544,12 +1695,12 @@
       ["Singular" ,"Person3" ,"Fem" ,"tamtai kíthai"],
       ["Plural" ,"Person1" ,"Common" ,"tamnai kínhai"],
       ["Plural" ,"Person2" ,"Common" ,"tamtāna kíthaina"],
-      ["Plural" ,"Person3" ,"Common" ,"tamiá̄n kíhaina"]
+      ["Plural" ,"Person3" ,"Common" ,"tamiā́n kíhaina"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PresentNegative",
-    "note": "RPs.135f",
+    "note": "ER28s.135f",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1571,7 +1722,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-PresentPredicativeAffirmative",
-    "note": "RPs.136",
+    "note": "ER28s.136",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1584,9 +1735,9 @@
       ["Singular" ,"Person1" ,"Masc" ,"tamánībi"],
       ["Singular" ,"Person1" ,"Fem" ,"tamánīti"],
       ["Singular" ,"Person2" ,"Masc" ,"tamínīwa"],
-      ["Singular" ,"Person2" ,"Fem" ,"tamténītui"],
+      ["Singular" ,"Person2" ,"Fem" ,"tamtḗnītui"],
       ["Singular" ,"Person3" ,"Masc" ,"tamīnībi"],
-      ["Singular" ,"Person3" ,"Fem" ,"tamténīti"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamtḗnīti"],
       ["Plural" ,"Person1" ,"Masc" ,"támɛna"],
       ["Plural" ,"Person1" ,"Fem" ,"támēnta"],
       ["Plural" ,"Person2" ,"Masc" ,"támɛnāna"],
@@ -1597,7 +1748,7 @@
   },
   {
     "label": "bro-VerbSuffix-tam-PresentSubjunctiveAffirmative",
-    "note": "RPs.144",
+    "note": "ER28s.144",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1607,19 +1758,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"tamaniék"],
-      ["Singular" ,"Person2" ,"Masc" ,"tamteniék"],
-      ["Singular" ,"Person2" ,"Fem" ,"tamteniék"],
-      ["Singular" ,"Person3" ,"Masc" ,"tamīniék"],
-      ["Singular" ,"Person3" ,"Fem" ,"tamteniék"],
-      ["Plural" ,"Person1" ,"Common" ,"tamnɛnék"],
-      ["Plural" ,"Person2" ,"Common" ,"tamtɛnék"],
-      ["Plural" ,"Person3" ,"Common" ,"tamɛnék"]
+      ["Singular" ,"Person1" ,"Common" ,"tamaniḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"tamteniḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"tamteniḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"tamīniḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamteniḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"tamnɛnḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"tamtɛnḗk"],
+      ["Plural" ,"Person3" ,"Common" ,"tamɛnḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffix-tam-PresentSubjunctiveNegative",
-    "note": "RPs.145",
+    "note": "ER28s.145",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tam",
@@ -1629,19 +1780,19 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"bātamāyék"],
-      ["Singular" ,"Person2" ,"Masc" ,"bittamāyék"],
-      ["Singular" ,"Person2" ,"Fem" ,"bittamāyék"],
-      ["Singular" ,"Person3" ,"Masc" ,"bītamāyék"],
-      ["Singular" ,"Person3" ,"Fem" ,"bittamāyék"],
-      ["Plural" ,"Person1" ,"Common" ,"bintamāyék"],
-      ["Plural" ,"Person2" ,"Common" ,"bittamɛnék"],
-      ["Plural" ,"Person3" ,"Common" ,"bītamɛnék"]
+      ["Singular" ,"Person1" ,"Common" ,"bātamāyḗk"],
+      ["Singular" ,"Person2" ,"Masc" ,"bittamāyḗk"],
+      ["Singular" ,"Person2" ,"Fem" ,"bittamāyḗk"],
+      ["Singular" ,"Person3" ,"Masc" ,"bītamāyḗk"],
+      ["Singular" ,"Person3" ,"Fem" ,"bittamāyḗk"],
+      ["Plural" ,"Person1" ,"Common" ,"bintamāyḗk"],
+      ["Plural" ,"Person2" ,"Common" ,"bittamɛnḗk"],
+      ["Plural" ,"Person3" ,"Common" ,"bītamɛnḗk"]
     ]
   },
   {
     "label": "bro-VerbSuffixConditionalPerfectAffirmative",
-    "note": "RPs.151 :: pdgm extrapolated from 151, to be checked",
+    "note": "ER28s.151 :: pdgm extrapolated from 151, to be checked",
     "common": {
       "conjClass": "Suffix",
       "polarity": "Affirmative",
@@ -1666,7 +1817,7 @@
   },
   {
     "label": "bro-VerbSuffixConditionalPerfectNegative",
-    "note": "RPs.153 :: gerund with negative optative of ak; pdgm here is based on RPs.143, not certain about status of final (y)",
+    "note": "ER28s.153 :: gerund with negative optative of ak; pdgm here is based on ER28s.143, not certain about status of final (y)",
     "common": {
       "conjClass": "Suffix",
       "polarity": "Negative",
@@ -1691,7 +1842,7 @@
   },
   {
     "label": "bro-VerbSuffixIrreg-i-ImperativeAffirmative",
-    "note": "RPs.256 ",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1703,13 +1854,13 @@
     "terms": [
       ["number" ,"gender" ,"token"],
       ["Person2" ,"Singular" ,"Masc" ,"me’ā"],
-      ["Person2" ,"Singular" ,"Fem" ,"me’éi"],
+      ["Person2" ,"Singular" ,"Fem" ,"me’ḗi"],
       ["Person2" ,"Plural" ,"Common" ,"m’ān"]
     ]
   },
   {
     "label": "bro-VerbSuffixIrreg-i-ImperativeNegative",
-    "note": "RPs.256 ",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1720,12 +1871,12 @@
     },
     "terms": [
       ["person" ,"gender" ,"token"],
-      ["Person2" ,"Common" ,"bá̄’iyā"]
+      ["Person2" ,"Common" ,"bā́’iyā"]
     ]
   },
   {
     "label": "bro-VerbSuffixIrreg-i-PastAffirmative",
-    "note": "RPs.256 ",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1737,18 +1888,18 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"ián"],
-      ["Singular" ,"Person2" ,"Masc" ,"éta"],
-      ["Singular" ,"Person2" ,"Fem" ,"étai"],
-      ["Singular" ,"Person3" ,"Masc" ,"éa"],
-      ["Singular" ,"Person3" ,"Fem" ,"éta"],
-      ["Plural" ,"Person1" ,"Common" ,"éna"],
-      ["Plural" ,"Person2" ,"Common" ,"étān"],
-      ["Plural" ,"Person3" ,"Common" ,"éan"]
+      ["Singular" ,"Person2" ,"Masc" ,"ḗta"],
+      ["Singular" ,"Person2" ,"Fem" ,"ḗtai"],
+      ["Singular" ,"Person3" ,"Masc" ,"ḗa"],
+      ["Singular" ,"Person3" ,"Fem" ,"ḗta"],
+      ["Plural" ,"Person1" ,"Common" ,"ḗna"],
+      ["Plural" ,"Person2" ,"Common" ,"ḗtān"],
+      ["Plural" ,"Person3" ,"Common" ,"ḗan"]
     ]
   },
   {
     "label": "bro-VerbSuffixIrreg-i-PresentAffirmative",
-    "note": "RPs.256 ",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1760,18 +1911,136 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person1" ,"Common" ,"iáni"],
-      ["Singular" ,"Person2" ,"Masc" ,"étnia"],
-      ["Singular" ,"Person2" ,"Fem" ,"étniyi"],
-      ["Singular" ,"Person3" ,"Masc" ,"eí̄ni"],
-      ["Singular" ,"Person3" ,"Fem" ,"énei"],
-      ["Plural" ,"Person1" ,"Common" ,"étena"],
-      ["Plural" ,"Person2" ,"Common" ,"yién"],
+      ["Singular" ,"Person2" ,"Masc" ,"ḗtnia"],
+      ["Singular" ,"Person2" ,"Fem" ,"ḗtniyi"],
+      ["Singular" ,"Person3" ,"Masc" ,"eī́ni"],
+      ["Singular" ,"Person3" ,"Fem" ,"ḗnei"],
+      ["Plural" ,"Person1" ,"Common" ,"ḗtena"],
+      ["Plural" ,"Person2" ,"Common" ,"yiḗn"],
       ["Plural" ,"Person3" ,"Common" ,"een"]
     ]
   },
   {
-    "label": "bro-Verbmorph-AffixNegImprtv-PrefixImperativeNegative",
-    "note": "RPs.176",
+    "label": "bro-morphNoun-GenAdjPart",
+    "note": "ER28s.062 ::  Possessive construction where N1 is modified by an adjective. Pattern is:[N1 Adj]+genAdjPart N2 the Adj N1s N2",
+    "common": {
+      "morphClass": "GenAdjPart",
+      "pos": "Noun"
+    },
+    "terms": [
+      ["genN1" ,"genN2" ,"numN1" ,"token"],
+      ["Fem" ,"Fem" ,"Plural" ,"-natet"],
+      ["Fem" ,"Fem" ,"Singular" ,"-natit"],
+      ["Fem" ,"Masc" ,"__" ,"-nati"],
+      ["Masc" ,"Fem" ,"__" ,"-nait"],
+      ["Masc" ,"Masc" ,"__" ,"-nai"]
+    ]
+  },
+  {
+    "label": "bro-morphNoun-GenBeforePossSuff",
+    "note": "ER28s.106 ",
+    "common": {
+      "morphClass": "GenBeforePossSuff",
+      "pos": "Noun"
+    },
+    "terms": [
+      ["genHead" ,"number" ,"gender" ,"token"],
+      ["H_Fem" ,"Singular" ,"Masc" ,"-it-"],
+      ["H_Fem" ,"Singular" ,"Fem" ,"-tit-"],
+      ["H_Fem" ,"Plural" ,"Masc" ,"-et-"],
+      ["H_Fem" ,"Plural" ,"Fem" ,"-tet-"],
+      ["H_Masc" ,"Singular" ,"Masc" ,"-i-"],
+      ["H_Masc" ,"Singular" ,"Fem" ,"-ti-"],
+      ["H_Masc" ,"Plural" ,"Masc" ,"-e-"],
+      ["H_Masc" ,"Plural" ,"Fem" ,"-te-"]
+    ]
+  },
+  {
+    "label": "bro-morphNoun-NumOrd",
+    "note": "ER28s.077 ",
+    "common": {
+      "morphClass": "NumOrd",
+      "pos": "Noun"
+    },
+    "terms": [
+      ["token-note" ,"token"],
+      ["eighth" ,"ásimha"],
+      ["fifth" ,"ḗiya"],
+      ["first" ,"áwwali"],
+      ["fourth" ,"fádiga"],
+      ["ninth" ,"aššádiga"],
+      ["second" ,"mália"],
+      ["seventh" ,"asarama"],
+      ["sixth" ,"aságwira"],
+      ["tenth" ,"támna"],
+      ["third" ,"mehḗa"]
+    ]
+  },
+  {
+    "label": "bro-morphNoun-Numeral",
+    "note": "ER28s.069 ",
+    "common": {
+      "morphClass": "Numeral",
+      "pos": "Noun"
+    },
+    "terms": [
+      ["token-note" ,"gender" ,"token"],
+      ["1 " ,"Masc" ,"gal"],
+      ["10" ,"Common" ,"támin"],
+      ["100" ,"Common" ,"še"],
+      ["1000" ,"Common" ,"támin še"],
+      ["11 " ,"Masc" ,"tamnágwir"],
+      ["11 " ,"Fem" ,"tamnágwit"],
+      ["110" ,"Common" ,"šḗwa támin"],
+      ["12" ,"Common" ,"támnamále"],
+      ["13" ,"Common" ,"támnamehḗi"],
+      ["14" ,"Common" ,"támnafádig"],
+      ["15" ,"Common" ,"támenei"],
+      ["16" ,"Masc" ,"támenaságwir"],
+      ["17" ,"Common" ,"támenasaráma"],
+      ["18" ,"Common" ,"támenasimhḗi"],
+      ["19" ,"Common" ,"támnaššádig"],
+      ["2" ,"Common" ,"mále"],
+      ["20" ,"Masc" ,"tágug"],
+      ["200" ,"Common" ,"mále še"],
+      ["2000" ,"Common" ,"tágug še"],
+      ["21 " ,"Masc" ,"taggwágwir"],
+      ["22" ,"Common" ,"tággwamále"],
+      ["23" ,"Common" ,"tággwamehḗi"],
+      ["24" ,"Common" ,"tággwafádig"],
+      ["25" ,"Common" ,"tággwḗi"],
+      ["26" ,"Masc" ,"tággwaságwir"],
+      ["27" ,"Common" ,"tággwasaráma"],
+      ["28" ,"Common" ,"tággwasimhḗi"],
+      ["29" ,"Common" ,"tággwaššádig"],
+      ["3" ,"Common" ,"mehei"],
+      ["30" ,"Common" ,"mehḗitamun"],
+      ["300" ,"Common" ,"mehḗi še"],
+      ["31 " ,"Masc" ,"mehḗitamunwa gal"],
+      ["32" ,"Masc" ,"mehḗitamunwa mále"],
+      ["4" ,"Common" ,"fádig"],
+      ["40" ,"Common" ,"fádigtamun"],
+      ["5" ,"Common" ,"ei"],
+      ["50" ,"Common" ,"ḗitamun"],
+      ["6" ,"Masc" ,"aságwir"],
+      ["6" ,"Fem" ,"aságwit"],
+      ["60" ,"Common" ,"aságwirtamun"],
+      ["7" ,"Common" ,"asaráma"],
+      ["70" ,"Common" ,"asarámatamun"],
+      ["8" ,"Common" ,"asimhḗi"],
+      ["80" ,"Common" ,"asimhḗitamun"],
+      ["9" ,"Common" ,"aššádig"],
+      ["90" ,"Common" ,"aššádigtamun"],
+      ["Common" ,"Fem" ,"taggwágwit"],
+      ["Common" ,"Fem" ,"tágugt"],
+      ["Common" ,"Fem" ,"támenaságwit"],
+      ["Common" ,"Fem" ,"taggwasagwit"],
+      ["p1" ,"Fem" ,"gat"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-AffixNegImprtvPrefixImperativeNegative",
+    "note": "ER28s.176",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Negative",
@@ -1787,65 +2056,197 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-DervStemForm-Prefix",
-    "note": "RPs.211-226 ",
+    "label": "bro-morphVerb-DervStemFormPrefix",
+    "note": "ER28s.211 :: change medial vowel ",
     "common": {
       "conjClass": "Prefix",
+      "subClass": "Monosyllabic",
+      "dervStem": "Intensive",
       "pos": "Verb",
       "morphClass": "DervStemForm"
     },
     "terms": [
-      ["derivedStem" ,"lexeme" ,"nonFiniteForm" ,"polarity" ,"tam" ,"token"],
-      ["B_Freq" ,"kitim" ,"__" ,"__" ,"__" ,"kātatim"],
-      ["B_Intens" ,"bir" ,"__" ,"__" ,"__" ,"bor"],
-      ["B_Intens" ,"bis" ,"__" ,"__" ,"__" ,"bos"],
-      ["B_Intens" ,"gid" ,"__" ,"__" ,"__" ,"ged"],
-      ["B_Intens" ,"kitim" ,"Participle" ,"Affirmative" ,"__" ,"kātima"],
-      ["B_Intens" ,"kitim" ,"Participle" ,"Negative" ,"__" ,"bākātim"],
-      ["B_Intens" ,"kitim" ,"__" ,"Affirmative" ,"Conditional" ,"īktám"],
-      ["B_Intens" ,"kitim" ,"__" ,"Affirmative" ,"Imperative" ,"kātima"],
-      ["B_Intens" ,"kitim" ,"__" ,"Affirmative" ,"Past" ,"akātím"],
-      ["B_Intens" ,"kitim" ,"__" ,"Affirmative" ,"Present" ,"ɛktīm"],
-      ["B_Intens" ,"kitim" ,"__" ,"Negative" ,"Imperative" ,"bākātīma"],
-      ["B_Intens" ,"kitim" ,"__" ,"__" ,"Gerund" ,"kātima"],
-      ["B_Intens" ,"kitim" ,"__" ,"__" ,"__" ,"kātim"],
-      ["B_Intens" ,"nis" ,"__" ,"__" ,"__" ,"nos"],
-      ["B_Intens" ,"sodira" ,"__" ,"__" ,"__" ,"dār"],
-      ["B_Redup" ,"kitim" ,"__" ,"__" ,"__" ,"kitimkitm"],
-      ["Base" ,"bar" ,"__" ,"__" ,"Conditional" ,"īb’ár"],
-      ["Base" ,"bar" ,"__" ,"__" ,"Imperative" ,"b’ára"],
-      ["Base" ,"bar" ,"__" ,"__" ,"Past" ,"ab’ár"],
-      ["Base" ,"bar" ,"__" ,"__" ,"Present" ,"amb’í̄r"],
-      ["M" ,"min" ,"NominalAction" ,"__" ,"__" ,"atominói"],
-      ["M" ,"min" ,"Participle" ,"Negative" ,"__" ,"bātomīn"],
-      ["M" ,"min" ,"__" ,"Affirmative" ,"Imperative" ,"atómāna"],
-      ["M" ,"min" ,"__" ,"Affirmative" ,"Past" ,"atomān"],
-      ["M" ,"min" ,"__" ,"Affirmative" ,"Present" ,"atómīn"],
-      ["M" ,"min" ,"__" ,"Negative" ,"Imperative" ,"bātómīna"],
-      ["M" ,"min" ,"__" ,"Negative" ,"Past" ,"titómāna"],
-      ["M" ,"min" ,"__" ,"Negative" ,"Present" ,"titómīna"],
-      ["M" ,"min" ,"__" ,"__" ,"Conditional" ,"itūmín"],
-      ["M" ,"min" ,"__" ,"__" ,"Gerund" ,"atomina"],
-      ["M" ,"t-" ,"__" ,"__" ,"__" ,"(a)t-"],
-      ["M" ,"to" ,"__" ,"__" ,"__" ,"(a)to-"],
-      ["Reciprocal" ,"m-" ,"__" ,"__" ,"__" ,"(a)m-"],
-      ["Reciprocal" ,"mo" ,"__" ,"__" ,"__" ,"(a)mo-"],
-      ["S" ,"kitim" ,"__" ,"__" ,"__" ,"sikatim"],
-      ["S" ,"sodira" ,"NominalAction" ,"__" ,"__" ,"sodirói"],
-      ["S" ,"sodira" ,"Participle" ,"Negative" ,"__" ,"bāsodīr"],
-      ["S" ,"sodira" ,"__" ,"Affirmative" ,"Imperative" ,"sódira"],
-      ["S" ,"sodira" ,"__" ,"Affirmative" ,"Past" ,"asodír"],
-      ["S" ,"sodira" ,"__" ,"Affirmative" ,"Present" ,"asodí̄r"],
-      ["S" ,"sodira" ,"__" ,"Negative" ,"Imperative" ,"bāsodīra"],
-      ["S" ,"sodira" ,"__" ,"Negative" ,"Past" ,"tesódira"],
-      ["S" ,"sodira" ,"__" ,"Negative" ,"Present" ,"tesódīra"],
-      ["S" ,"sodira" ,"__" ,"__" ,"Conditional" ,"isūdír"],
-      ["S" ,"sodira" ,"__" ,"__" ,"Gerund" ,"sodira"]
+      ["lexeme" ,"token-intensive"],
+      ["bir" ,"bor"],
+      ["bis" ,"bos"],
+      ["nis" ,"nos"],
+      ["gid" ,"gεd"],
+      ["dir" ,"dār"]
     ]
   },
   {
-    "label": "bro-Verbmorph-GerundForm-SuffixIrreg-i-Gerund",
-    "note": "RPs.256 ",
+    "label": "bro-morphVerb-DervStemFormPrefix",
+    "note": "ER28s.214 ",
+    "common": {
+      "conjClass": "Prefix",
+      "subClass": "Bisyllabic",
+      "dervStem": "Intensive",
+      "pos": "Verb",
+      "morphClass": "DervStemForm"
+    },
+    "terms": [
+      ["lexeme" ,"token-intensive"],
+      ["birir" ,"bārir"],
+      ["dibil" ,"dābil"],
+      ["kitim" ,"kātim"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemFormPrefix",
+    "note": "ER28s.217 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Frequentative",
+      "pos": "Verb",
+      "morphClass": "DervStemForm"
+    },
+    "terms": [
+      ["lexeme" ,"token-frequentative"],
+      ["bas" ,"bab'as"],
+      ["bis" ,"babis"],
+      ["lig" ,"lalig"],
+      ["kitim" ,"kātatim"],
+      ["dibil" ,"dābabil"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemFormPrefix",
+    "note": "ER28s.218 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Causative",
+      "pos": "Verb",
+      "morphClass": "DervStemForm"
+    },
+    "terms": [
+      ["lexeme" ,"token" ,"token-note"],
+      ["dir" ,"sodir" ,"so-monosyllabic"],
+      ["dilib" ,"sidalib" ,"si-bisyllabic"],
+      ["kitim" ,"sikitim" ,"si-bisyllabic"],
+      ["rikwi" ,"sirakw" ,"si-bisyllabic"],
+      ["ṭa" ,"šoṭ'a" ,"šo/ši-emphatic or š"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemFormPrefix",
+    "note": "ER28s.222 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Passive",
+      "pos": "Verb",
+      "morphClass": "DervStemForm"
+    },
+    "terms": [
+      ["lexeme" ,"token-passive"],
+      ["min" ,"atomān"],
+      ["ib" ,"ato'āb"],
+      ["kitib" ,"atkatāb"],
+      ["dibil" ,"addabāl"],
+      ["gilim" ,"adgalām"],
+      ["šuguḍ" ,"aštagwāḍ"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemFormPrefix",
+    "note": "ER28s.224-226 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Reciprocal",
+      "pos": "Verb",
+      "morphClass": "DervStemForm"
+    },
+    "terms": [
+      ["lexeme" ,"token-reciprocal" ,"token-gloss"],
+      ["gid" ,"amogād" ,"help throw; throw at each other"],
+      ["dir" ,"amodār" ,"help kill, kill each other"],
+      ["ṭaba" ,"amṭab'" ,"help beat, (pl) beat each other"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemFormSuffix",
+    "note": "ER28s.160-166 ",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "morphClass": "DervStemForm"
+    },
+    "terms": [
+      ["dervStem" ,"token"],
+      ["Intensive-1" ,"tam-ta-m-"],
+      ["Intensive-2" ,"ta-tam-"],
+      ["Causative-1" ,"tam-s-"],
+      ["Causative-2" ,"tam-sis-"],
+      ["Passive" ,"tam-am-"],
+      ["reciprocal" ,"tam-s-am-"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemPrincipalPartsPrefix",
+    "note": "ER28s.216",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Intensive",
+      "pos": "Verb",
+      "morphClass": "DervStemPrincipalParts"
+    },
+    "terms": [
+      ["lexeme" ,"token-past" ,"token-present" ,"token-conditional"],
+      ["kitim" ,"akātim" ,"εktīm" ,"īktám"],
+      ["bāḍin" ,"abāḍin" ,"εbḍīn" ,"ībḍán"],
+      ["nāi" ,"anāi" ,"εnīyi" ,"īnīa"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemPrincipalPartsPrefix",
+    "note": "ER28s.219 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Causative",
+      "pos": "Verb",
+      "morphClass": "DervStemPrincipalParts"
+    },
+    "terms": [
+      ["lexeme" ,"token-past" ,"token-present" ,"token-conditional"],
+      ["dir" ,"asodír" ,"asodīr" ,"isūdír"],
+      ["kitim" ,"askatím" ,"askatīm" ,"iskitīm"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemPrincipalPartsPrefix",
+    "note": "ER28s.220 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Reflexive",
+      "pos": "Verb",
+      "morphClass": "DervStemPrincipalParts"
+    },
+    "terms": [
+      ["lexeme" ,"token-past" ,"token-present" ,"token-conditional"],
+      ["fif" ,"faf" ,"afaf" ,"e2tfīf" ,"ītfaf"],
+      ["rimid" ,"rimad" ,"armad" ,"atramīd" ,"itrimid"],
+      ["ginif" ,"ginaf" ,"agnaf" ,"adganīf" ,"idginif"],
+      ["sikit" ,"sikat" ,"astak" ,"astakīt" ,"istikit"],
+      ["šibib" ,"šibab" ,"ašbab" ,"aštabīb" ,"ištibib"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-DervStemPrincipalPartsPrefix",
+    "note": "ER28s.223 ",
+    "common": {
+      "conjClass": "Prefix",
+      "dervStem": "Passive",
+      "pos": "Verb",
+      "morphClass": "DervStemPrincipalParts"
+    },
+    "terms": [
+      ["lexeme" ,"token-past" ,"token-present" ,"token-conditional"],
+      ["min" ,"atomān" ,"atomīn" ,"itūmin"],
+      ["ṭibik" ,"aṭabāk" ,"aṭabīk" ,"iṭibik"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-GerundFormSuffixIrreg-i-Gerund",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1860,8 +2261,8 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-ImptvAffix-PrefixImperativeAffirmative",
-    "note": "RPs.176",
+    "label": "bro-morphVerb-ImptvAffixPrefixImperativeAffirmative",
+    "note": "ER28s.176",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Affirmative",
@@ -1877,8 +2278,8 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-ImptvAffix-SuffixImperative",
-    "note": "RPs.127 ",
+    "label": "bro-morphVerb-ImptvAffixSuffixImperative",
+    "note": "ER28s.127 ",
     "common": {
       "conjClass": "Suffix",
       "pos": "Verb",
@@ -1896,8 +2297,8 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-NomForm-ktm-PrefixCCC-kitim-",
-    "note": "RPs.192-197 ",
+    "label": "bro-morphVerb-NomForm-ktmPrefixCCC-kitim-",
+    "note": "ER28s.192-197 ",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "kitim",
@@ -1907,16 +2308,16 @@
     },
     "terms": [
       ["nonFiniteForm" ,"polarity" ,"token"],
-      ["Gerund" ,"__" ,"kitmá̄wa"],
-      ["NominalAction" ,"__" ,"-ū- kitú̄m"],
+      ["Gerund" ,"__" ,"kitmā́wa"],
+      ["NominalAction" ,"__" ,"-ū- kitū́m"],
       ["NominalAgent" ,"__" ,"-ā- kātemána"],
       ["Participle" ,"Affirmative" ,"kítime"],
       ["Participle" ,"Negative" ,"bākátīm"]
     ]
   },
   {
-    "label": "bro-Verbmorph-NomFormPref-Prefix",
-    "note": "RPs.170-175 ",
+    "label": "bro-morphVerb-NomFormPrefPrefix",
+    "note": "ER28s.170-175 ",
     "common": {
       "conjClass": "Prefix",
       "pos": "Verb",
@@ -1933,8 +2334,8 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-NomFormSuff-Suffix",
-    "note": "RPs.121-126 ",
+    "label": "bro-morphVerb-NomFormSuffSuffix",
+    "note": "ER28s.121-126 ",
     "common": {
       "conjClass": "Suffix",
       "pos": "Verb",
@@ -1953,8 +2354,8 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-NominalAgent-SuffixIrreg-i-",
-    "note": "RPs.256 ",
+    "label": "bro-morphVerb-NominalAgentSuffixIrreg-i-",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1968,8 +2369,8 @@
     ]
   },
   {
-    "label": "bro-Verbmorph-Participle-SuffixIrreg-i-",
-    "note": "RPs.256 ",
+    "label": "bro-morphVerb-ParticipleSuffixIrreg-i-",
+    "note": "ER28s.256 ",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "i",
@@ -1979,32 +2380,12 @@
     },
     "terms": [
       ["gender" ,"token"],
-      ["Common" ,"‘ié"]
+      ["Common" ,"‘iḗ"]
     ]
   },
   {
-    "label": "bro-Verbmorph-SubjMarker-Prefix",
-    "note": "RPs.167f",
-    "common": {
-      "conjClass": "Prefix",
-      "pos": "Verb",
-      "morphClass": "SubjMarker"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"a…"],
-      ["Singular" ,"Person2" ,"Masc" ,"ti…a"],
-      ["Singular" ,"Person2" ,"Fem" ,"ti…i"],
-      ["Singular" ,"Person3" ,"Masc" ,"i…"],
-      ["Singular" ,"Person3" ,"Fem" ,"ti…"],
-      ["Plural" ,"Person1" ,"Common" ,"n…(ni…)"],
-      ["Plural" ,"Person2" ,"Common" ,"ti…na"],
-      ["Plural" ,"Person3" ,"Common" ,"i…n(a)"]
-    ]
-  },
-  {
-    "label": "bro-Verbmorph-SubjMarkerIntens-PrefixIntensive",
-    "note": "RPs.213 ",
+    "label": "bro-morphVerb-SubjMarkerIntensPrefixIntensive",
+    "note": "ER28s.213 ",
     "common": {
       "conjClass": "Prefix",
       "derivedStem": "Intensive",
@@ -2021,6 +2402,26 @@
       ["Plural" ,"Person1" ,"Common" ,"ne…i…i"],
       ["Plural" ,"Person2" ,"Common" ,"te…i…ina"],
       ["Plural" ,"Person3" ,"Common" ,"e…i…in(a)"]
+    ]
+  },
+  {
+    "label": "bro-morphVerb-SubjMarkerPrefix",
+    "note": "ER28s.167f",
+    "common": {
+      "conjClass": "Prefix",
+      "pos": "Verb",
+      "morphClass": "SubjMarker"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"a…"],
+      ["Singular" ,"Person2" ,"Masc" ,"ti…a"],
+      ["Singular" ,"Person2" ,"Fem" ,"ti…i"],
+      ["Singular" ,"Person3" ,"Masc" ,"i…"],
+      ["Singular" ,"Person3" ,"Fem" ,"ti…"],
+      ["Plural" ,"Person1" ,"Common" ,"n…(ni…)"],
+      ["Plural" ,"Person2" ,"Common" ,"ti…na"],
+      ["Plural" ,"Person3" ,"Common" ,"i…n(a)"]
     ]
   }
 ]}
